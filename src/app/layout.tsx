@@ -37,12 +37,21 @@ export const metadata: Metadata = {
     description:
       "Photographer. Cinematic portrait photography from Vietnam.",
     locale: "en_US",
+    images: [
+      {
+        url: "/assets/hero/hero-bg.png",
+        width: 1254,
+        height: 1254,
+        alt: "Thinh Do — portfolio",
+      },
+    ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Thinh Do — Do Duy Thinh · Photographer",
     description:
       "Thinh Do (Do Duy Thinh) — photographer. Cinematic portrait photography from Vietnam.",
+    images: ["/assets/hero/hero-bg.png"],
   },
   icons: {
     icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230a0a0b'/><text y='66' x='50' text-anchor='middle' font-size='40' font-family='monospace' fill='%23e0a244'>TD</text></svg>",

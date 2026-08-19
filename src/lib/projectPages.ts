@@ -275,6 +275,12 @@ export const nextProjectSlug = (slug: string) => {
 export const projectMetadata = (slug: string): Metadata => {
   const p = PROJECTS.find((x) => x.slug === slug);
   const title = `${p?.name ?? slug} — Thinh Do · Do Duy Thinh`;
+  const ogImage = {
+    url: "/assets/hero/hero-bg.png",
+    width: 1254,
+    height: 1254,
+    alt: p ? `${p.name} — Thinh Do` : "Thinh Do — portfolio",
+  };
   return {
     title: { absolute: title },
     description: p?.description,
@@ -286,13 +292,15 @@ export const projectMetadata = (slug: string): Metadata => {
           siteName: "Do Duy Thinh",
           type: "article",
           locale: "en_US",
+          images: [ogImage],
         }
       : undefined,
     twitter: p
       ? {
-          card: "summary",
+          card: "summary_large_image",
           title,
           description: p.description,
+          images: [ogImage.url],
         }
       : undefined,
   };
