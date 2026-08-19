@@ -274,8 +274,26 @@ export const nextProjectSlug = (slug: string) => {
 
 export const projectMetadata = (slug: string): Metadata => {
   const p = PROJECTS.find((x) => x.slug === slug);
+  const title = `${p?.name ?? slug} — Thinh Do · Do Duy Thinh`;
   return {
-    title: `${p?.name ?? slug} — Thinh Do · Do Duy Thinh`,
+    title: { absolute: title },
     description: p?.description,
+    openGraph: p
+      ? {
+          title,
+          description: p.description,
+          url: `/projects/${slug}`,
+          siteName: "Do Duy Thinh",
+          type: "article",
+          locale: "en_US",
+        }
+      : undefined,
+    twitter: p
+      ? {
+          card: "summary",
+          title,
+          description: p.description,
+        }
+      : undefined,
   };
 };

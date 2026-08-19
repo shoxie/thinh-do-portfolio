@@ -22,7 +22,10 @@ const jetBrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "Thinh Do — Do Duy Thinh · Photographer",
+  title: {
+    default: "Thinh Do — Do Duy Thinh · Photographer",
+    template: "%s — Thinh Do · Do Duy Thinh",
+  },
   description:
     "Thinh Do (Do Duy Thinh) — photographer. Cinematic portrait photography from Vietnam.",
   authors: [{ name: "Thinh Do" }],
@@ -33,18 +36,16 @@ export const metadata: Metadata = {
     title: "Thinh Do — Do Duy Thinh",
     description:
       "Photographer. Cinematic portrait photography from Vietnam.",
-    images: [
-      {
-        url: "/assets/og.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Fashion editorial photography",
-      },
-    ],
     locale: "en_US",
   },
+  twitter: {
+    card: "summary",
+    title: "Thinh Do — Do Duy Thinh · Photographer",
+    description:
+      "Thinh Do (Do Duy Thinh) — photographer. Cinematic portrait photography from Vietnam.",
+  },
   icons: {
-    icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230a0a0b'/><text y='66' x='50' text-anchor='middle' font-size='40' font-family='monospace' fill='%23e0a244'>123</text></svg>",
+    icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230a0a0b'/><text y='66' x='50' text-anchor='middle' font-size='40' font-family='monospace' fill='%23e0a244'>TD</text></svg>",
   },
 };
 

@@ -1,5 +1,5 @@
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://aboutme.34306.lol";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://thinh-do-portfolio.vercel.app";
 
 
 export const EASE = [0.22, 0.61, 0.36, 1] as const;
