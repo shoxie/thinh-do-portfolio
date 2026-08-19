@@ -1,5 +1,7 @@
 import { ProjectPage } from "@/components/project/ProjectPage";
-import { PROJECTS } from "@/lib/projectPages";
+import { PROJECTS, projectMetadata } from "@/lib/projectPages";
+
+export const metadata = projectMetadata("employment-relations");
 
 export default function EmploymentRelationsPage() {
   const project = PROJECTS.find((p) => p.slug === "employment-relations");

@@ -92,6 +92,50 @@ export function About() {
             </Reveal>
 
             <Reveal>
+              <ul className="aboutfacts">
+                <li>
+                  <span className="aboutfacts__k">
+                    {t("about.facts.education")}
+                  </span>
+                  <span className="aboutfacts__v">
+                    {t("about.facts.educationV")}
+                  </span>
+                </li>
+                <li>
+                  <span className="aboutfacts__k">{t("about.facts.work")}</span>
+                  <span className="aboutfacts__v">{t("about.facts.workV")}</span>
+                </li>
+                <li>
+                  <span className="aboutfacts__k">
+                    {t("about.facts.skills")}
+                  </span>
+                  <span className="aboutfacts__v">
+                    {t("about.facts.skillsV")}
+                  </span>
+                </li>
+                <li>
+                  <span className="aboutfacts__k">
+                    {t("about.facts.hobbies")}
+                  </span>
+                  <span className="aboutfacts__v">
+                    {t("about.facts.hobbiesV")}
+                  </span>
+                </li>
+                <li>
+                  <span className="aboutfacts__k">
+                    {t("about.facts.email")}
+                  </span>
+                  <a
+                    className="aboutfacts__v aboutfacts__mail"
+                    href={`mailto:${t("about.facts.emailV")}`}
+                  >
+                    {t("about.facts.emailV")}
+                  </a>
+                </li>
+              </ul>
+            </Reveal>
+
+            <Reveal>
               <ul className="stats" ref={statsRef}>
                 <Stat
                   value={projectCount}

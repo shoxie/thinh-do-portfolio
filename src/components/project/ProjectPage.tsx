@@ -18,8 +18,8 @@ export function ProjectPage({ project }: { project: Project }) {
     <MotionConfig reducedMotion="user">
       <I18nProvider
         title={{
-          en: `${project.name} — Thinh Do · gayshit123`,
-          vi: `${project.name} — Thinh Do · gayshit123`,
+          en: `${project.name} — Thinh Do · Do Duy Thinh`,
+          vi: `${project.name} — Thinh Do · Do Duy Thinh`,
         }}
       >
         <Grain />

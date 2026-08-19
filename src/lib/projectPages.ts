@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import projectsRaw from "./projects.json";
 
 export type ProjectPhoto = {
@@ -269,4 +270,12 @@ export const nextProjectSlug = (slug: string) => {
   if (idx < 0) return null;
   const next = PROJECTS[(idx + 1) % PROJECTS.length];
   return next.slug === slug ? null : next.slug;
+};
+
+export const projectMetadata = (slug: string): Metadata => {
+  const p = PROJECTS.find((x) => x.slug === slug);
+  return {
+    title: `${p?.name ?? slug} — Thinh Do · Do Duy Thinh`,
+    description: p?.description,
+  };
 };

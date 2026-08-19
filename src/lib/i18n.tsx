@@ -48,13 +48,31 @@ const en: Dict = {
     "candid have the exact same feeling.</p>" +
     "<p>Most of what you'll see here is <strong>portraits, fashion, food and product work</strong>. " +
     "I shoot wide and cinematic with a Fujifilm XT5, " +
-    "because I like the world better when it's framed cleanly.</p>",
+    "because I like the world better when it's framed cleanly.</p>" +
+    "<p>I'm a 25-year-old creative with a strong passion for photography and visual storytelling. " +
+    "I enjoy developing creative concepts and turning my personal perspectives into photographic work " +
+    "that feels distinctive and meaningful. I'm an open-minded and sociable person who enjoys " +
+    "collaborating with others, learning from new experiences, and continuously working towards " +
+    "becoming a better version of myself.</p>",
 
   "stats.projects": "Projects",
   "stats.photos": "Photographs",
   "stats.papers": "Research papers",
   "stats.ratio": "Aspect ratio",
   "stats.golden": "Golden hours",
+
+  "about.facts.education": "Education",
+  "about.facts.educationV": "RMIT University",
+  "about.facts.work": "Work Experience",
+  "about.facts.workV":
+    "Photography · Visual Content · Art Direction · Post-Production",
+  "about.facts.skills": "Skills",
+  "about.facts.skillsV":
+    "Photography · Photo & Video Editing · Adobe Photoshop · Adobe Illustrator · Adobe Lightroom · Microsoft Word · Microsoft PowerPoint",
+  "about.facts.hobbies": "Hobbies",
+  "about.facts.hobbiesV": "Photography · Tennis · Gym · Gaming",
+  "about.facts.email": "Professional Email",
+  "about.facts.emailV": "duythinh.dave@gmail.com",
 
   "craft.num": "02 — Craft",
   "craft.h2": "What I actually do",
@@ -140,13 +158,30 @@ const vi: Dict = {
     "hoàn hảo cho cảm giác y hệt nhau.</p>" +
     "<p>Phần lớn những gì bạn thấy ở đây là <strong>chân dung, thời trang, ẩm thực và sản phẩm</strong>. " +
     "Tôi chụp rộng và điện ảnh bằng Fujifilm XT5, " +
-    "bởi tôi thấy thế giới đẹp hơn khi được đóng khung gọn gàng.</p>",
+    "bởi tôi thấy thế giới đẹp hơn khi được đóng khung gọn gàng.</p>" +
+    "<p>Tôi là một người sáng tạo 25 tuổi với niềm đam mê mạnh mẽ dành cho nhiếp ảnh và kể chuyện bằng hình ảnh. " +
+    "Tôi thích phát triển các ý tưởng sáng tạo và biến góc nhìn cá nhân thành những tác phẩm nhiếp ảnh " +
+    "mang dấu ấn riêng và giàu ý nghĩa. Tôi là người cởi mở và hoà đồng, thích hợp tác với người khác, " +
+    "học hỏi từ những trải nghiệm mới và không ngừng hoàn thiện bản thân mỗi ngày.</p>",
 
   "stats.projects": "Dự án",
   "stats.photos": "Ảnh",
   "stats.papers": "Bài nghiên cứu",
   "stats.ratio": "Tỉ lệ khung hình",
   "stats.golden": "Giờ vàng",
+
+  "about.facts.education": "Học vấn",
+  "about.facts.educationV": "RMIT University",
+  "about.facts.work": "Kinh nghiệm làm việc",
+  "about.facts.workV":
+    "Nhiếp ảnh · Nội dung hình ảnh · Chỉ đạo nghệ thuật · Hậu kỳ",
+  "about.facts.skills": "Kỹ năng",
+  "about.facts.skillsV":
+    "Nhiếp ảnh · Chỉnh sửa ảnh & video · Adobe Photoshop · Adobe Illustrator · Adobe Lightroom · Microsoft Word · Microsoft PowerPoint",
+  "about.facts.hobbies": "Sở thích",
+  "about.facts.hobbiesV": "Nhiếp ảnh · Tennis · Gym · Chơi game",
+  "about.facts.email": "Email công việc",
+  "about.facts.emailV": "duythinh.dave@gmail.com",
 
   "craft.num": "02 — Công việc",
   "craft.h2": "Tôi thực sự làm gì",
