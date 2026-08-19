@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { useInView } from "framer-motion";
 import { Reveal, Rich } from "@/lib/reveal";
 import { useI18n } from "@/lib/i18n";
-import photos from "@/lib/photos.json";
+import projects from "@/lib/projects.json";
 
 function useCountUp(target: number, start: boolean) {
   const [value, setValue] = useState(0);
@@ -53,8 +53,15 @@ export function About() {
   const statsRef = useRef<HTMLUListElement>(null);
   const statsInView = useInView(statsRef, { once: true, amount: 0.6 });
 
-  const frames = photos.length;
-  const series = new Set(photos.map((p) => p.series)).size;
+  const projectCount = projects.length;
+  const photoCount = projects.reduce(
+    (sum, p) => sum + p.photos.length,
+    0,
+  );
+  const paperCount = projects.reduce(
+    (sum, p) => sum + p.documents.length,
+    0,
+  );
 
   return (
     <section className="about section" id="about">
@@ -87,19 +94,20 @@ export function About() {
             <Reveal>
               <ul className="stats" ref={statsRef}>
                 <Stat
-                  value={frames}
-                  label={t("stats.frames")}
+                  value={projectCount}
+                  label={t("stats.projects")}
                   start={statsInView}
                 />
                 <Stat
-                  value={series}
-                  label={t("stats.series")}
+                  value={photoCount}
+                  label={t("stats.photos")}
                   start={statsInView}
                 />
-                <li>
-                  <span className="stats__n">3:2</span>
-                  <span className="stats__l">{t("stats.ratio")}</span>
-                </li>
+                <Stat
+                  value={paperCount}
+                  label={t("stats.papers")}
+                  start={statsInView}
+                />
                 <li>
                   <span className="stats__n">∞</span>
                   <span className="stats__l">{t("stats.golden")}</span>

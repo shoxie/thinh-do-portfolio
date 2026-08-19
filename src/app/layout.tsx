@@ -22,15 +22,15 @@ const jetBrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "Thinh Do — gayshit123 · Photographer",
+  title: "Thinh Do — Do Duy Thinh · Photographer",
   description:
-    "Thinh Do (gayshit123) — photographer. Cinematic portrait photography from Vietnam.",
+    "Thinh Do (Do Duy Thinh) — photographer. Cinematic portrait photography from Vietnam.",
   authors: [{ name: "Thinh Do" }],
   openGraph: {
     type: "website",
-    siteName: "gayshit123",
+    siteName: "Do Duy Thinh",
     url: "/",
-    title: "Thinh Do — gayshit123",
+    title: "Thinh Do — Do Duy Thinh",
     description:
       "Photographer. Cinematic portrait photography from Vietnam.",
     images: [

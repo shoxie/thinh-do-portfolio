@@ -1,0 +1,421 @@
+[
+  {
+   "slug": "commercial-campaign",
+   "name": "Commercial Campaign",
+   "type": "photography",
+   "description": "A complete commercial campaign - fashion, food, portrait and product photography shot on location.",
+   "cover": "commercial-campaign-01",
+   "page": "/commercial-campaign",
+  "photos": [
+   {
+    "slug": "commercial-campaign-01",
+    "title": "Frame 01",
+    "w": 6336,
+    "h": 8448,
+    "ratio": 0.75,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAAYABIDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDm5v8AVoJS0aSOFkcdQKkNqtsDbMWKgbhuP3s98dhUMkxLBzljITwBzj2prBTesYvMKuOBJyw+tFtRc2g/5PaioT1PA/KigB9lKI7yIyOBJC4IJ6cGrGp4mvXuHZS0reYqA5GDwOaKKX2gt7rKhjXJ3MwPcYooophY/9k=",
+    "grid": "/assets/projects/commercial-campaign/grid/commercial-campaign-01.jpg",
+    "full": "/assets/projects/commercial-campaign/full/commercial-campaign-01.jpg"
+   },
+   {
+    "slug": "commercial-campaign-02",
+    "title": "Frame 02",
+    "w": 5808,
+    "h": 7259,
+    "ratio": 0.8001,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAAYABMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDirW3edhwdvrjirX2e3VyJiyouMvtz+FOsMrDhd4YkEMDgCrd3NJ9gbdEWR5RsJXKYA5wexzjigDLlt0WQhXyO2KKbPNKkzKkjBR0FFAi5a3MSxKGBBXgetPmaJUO6f/dUc8/40UUCtrcy3YM5JNFFFAz/2Q==",
+    "grid": "/assets/projects/commercial-campaign/grid/commercial-campaign-02.jpg",
+    "full": "/assets/projects/commercial-campaign/full/commercial-campaign-02.jpg"
+   },
+   {
+    "slug": "commercial-campaign-03",
+    "title": "Frame 03",
+    "w": 7309,
+    "h": 9136,
+    "ratio": 0.8,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAAYABMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDKsgWjJQAtjgHpmrTRypGqXOzzSOdo/wA4rn47kvp8qbiMDINW4LuWRnnkIG8bcL0H4VjY25tSZ1wxAoqq8mWJ3frRRYdzPWGdIXXymYMMZWnwpLtCsrqpAOSO/NFFaGQ4wtn72aKKKAuf/9k=",
+    "grid": "/assets/projects/commercial-campaign/grid/commercial-campaign-03.jpg",
+    "full": "/assets/projects/commercial-campaign/full/commercial-campaign-03.jpg"
+   },
+   {
+    "slug": "commercial-campaign-04",
+    "title": "Frame 04",
+    "w": 8878,
+    "h": 6341,
+    "ratio": 1.4001,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAARABgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDEs3VCOfoKu/aAJzGAdqjcWxxWBJ59q6l8DPYHNPF7PudFBKOoB+X9RWXKbcyNG/kEsZDDAAoqjP5s0KkLjjnNFNIlsvJ9w1dT/Vj6UUUxFa460UUUCP/Z",
+    "grid": "/assets/projects/commercial-campaign/grid/commercial-campaign-04.jpg",
+    "full": "/assets/projects/commercial-campaign/full/commercial-campaign-04.jpg"
+   },
+   {
+    "slug": "commercial-campaign-05",
+    "title": "Frame 05",
+    "w": 2800,
+    "h": 3500,
+    "ratio": 0.8,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAAYABMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCaw8q4tZIJovNWU/KgGW4HWsXUNONtI2zcUB/iGCvsatW802nFUYAF1wWGG2kYOMEjnt1rds4Ib6zaWaYNJja5ACqvXAwfTPrzXBytK52uavZnDNGdx4orbn0lhM4VGIzwQODRT5gsjU1rw7a6rsaF47RgcvtjDb6jbw/bQvGVV5wqBTvm2q+BwGAHIoorYxsixjWG5D2KD+6I2OPxooooGf/Z",
+    "grid": "/assets/projects/commercial-campaign/grid/commercial-campaign-05.jpg",
+    "full": "/assets/projects/commercial-campaign/full/commercial-campaign-05.jpg"
+   },
+   {
+    "slug": "commercial-campaign-06",
+    "title": "Frame 06",
+    "w": 3000,
+    "h": 2400,
+    "ratio": 1.25,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAATABgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC7O9VGY1nSXUxjMnnAhSAwOBjPSohqoCvCXTMq7Q+zO3nk81wcrPQ5i80gOcEe+DRWFLLLb3Q8m4EkbrnOwAg/hRV8vYjm7nfNoemnrbA/Vm/xqtN4Y0cjd9iUH2dh/WiitNjPfccPDukxgbLNRx/fb/Giiigdz//Z",
+    "grid": "/assets/projects/commercial-campaign/grid/commercial-campaign-06.jpg",
+    "full": "/assets/projects/commercial-campaign/full/commercial-campaign-06.jpg"
+   },
+   {
+    "slug": "commercial-campaign-07",
+    "title": "Frame 07",
+    "w": 2800,
+    "h": 3500,
+    "ratio": 0.8,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAAYABMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwBj6tGDiJS2eCOgqKO5+0HB25Geg6VVtIY5YHdsnDKgx0BPrTLq2jsY5pLdm+cb8g8kjjj864HBLQ9D2kt+hbbIY5BornGupwxxNMeeo3D9KKfsfMXtvI6q4mhm0cWkEbJ5Yy/3ckcDk4Gev6CqCWKqsjSzrG6Rh1R2J8wdhRRSvfcdktEK+nreMbiB7e3jfpE0nK9vSiiirSRDbP/Z",
+    "grid": "/assets/projects/commercial-campaign/grid/commercial-campaign-07.jpg",
+    "full": "/assets/projects/commercial-campaign/full/commercial-campaign-07.jpg"
+   },
+   {
+    "slug": "commercial-campaign-08",
+    "title": "Frame 08",
+    "w": 2330,
+    "h": 3500,
+    "ratio": 0.6657,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAAYABADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCfSZBbLJcj7oyue2fQetZl7eXd3qXlDKRKCzs3GeOmfyqG31GZraKFG2Rjdg4wSM+vvUwdnkCtIX3IYlaQ4Cg81wWs9T0L3V0ZvBC9QF6YPSnmRy+4ucgcc9PpRRTGf//Z",
+    "grid": "/assets/projects/commercial-campaign/grid/commercial-campaign-08.jpg",
+    "full": "/assets/projects/commercial-campaign/full/commercial-campaign-08.jpg"
+   },
+   {
+    "slug": "commercial-campaign-09",
+    "title": "Frame 09",
+    "w": 6336,
+    "h": 7920,
+    "ratio": 0.8,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAAYABMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDjoLFp78W6I75OCE5IHr9OaLy1S3cQAEzqxDEHIb6VoTXS281pLbIrsE2up9evX8KPtkLwXPmW6/aJSoiwc+WF5zn1JJqXe5Xu23MM8Eg8GiugiaZowTOMn120VdjLnRgmVywYnJHSnLcNvJfnIx07UUUirEgmGOAuPeiiimTZH//Z",
+    "grid": "/assets/projects/commercial-campaign/grid/commercial-campaign-09.jpg",
+    "full": "/assets/projects/commercial-campaign/full/commercial-campaign-09.jpg"
+   },
+   {
+    "slug": "commercial-campaign-10",
+    "title": "Frame 10",
+    "w": 6227,
+    "h": 7784,
+    "ratio": 0.8,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAAYABMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDheSVHA3cZNXdU0qXTViMjq6yZGV7MMZH6jmoVtpGClWAJAJ9h61r6gsNxDa20t4f3K8vwwDkc9OvalrcLqzOdoqWWIxyshBO04yBRTAf5w3jI4ChevpTgoZjJu5Vs470UUyNizcqs07SEctycj2ooooA//9k=",
+    "grid": "/assets/projects/commercial-campaign/grid/commercial-campaign-10.jpg",
+    "full": "/assets/projects/commercial-campaign/full/commercial-campaign-10.jpg"
+   },
+   {
+    "slug": "commercial-campaign-11",
+    "title": "Frame 11",
+    "w": 6341,
+    "h": 7926,
+    "ratio": 0.8,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAAYABMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDndTu5ogiQjAYcuOufSnJZXvltOsrFbdgsgcHkkZwauxaVcX9qJ4pVWELu+6cuR6e1OsrpUg1GC6uDGvm5LAhncYHHP4c1kmbFcrz1oqqkkzKCCnPPSipHdHV6bMI4bW3UrhY8nB6VyWv2CxX0pDLkkk7V2jrx9TRRWkFqYym9jI+ccKzY7YNFFFa2Qj//2Q==",
+    "grid": "/assets/projects/commercial-campaign/grid/commercial-campaign-11.jpg",
+    "full": "/assets/projects/commercial-campaign/full/commercial-campaign-11.jpg"
+   },
+   {
+    "slug": "commercial-campaign-12",
+    "title": "Frame 12",
+    "w": 6341,
+    "h": 7926,
+    "ratio": 0.8,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAAYABMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDm575kZ7eNThF+eReq/SobaORXMjTtwNzKeQQRn/CluraESG5csAB8wH8R7Vo6TrKwaOYiULxZGxgMsMYA9+TWfTQ13epAYhmil3+poqC9Co3+mS7BzGh/M+1JFauizsU+WNcg9+oBooqr20M1q7jt4PPP50UUUFn/2Q==",
+    "grid": "/assets/projects/commercial-campaign/grid/commercial-campaign-12.jpg",
+    "full": "/assets/projects/commercial-campaign/full/commercial-campaign-12.jpg"
+   },
+   {
+    "slug": "commercial-campaign-13",
+    "title": "Frame 13",
+    "w": 2800,
+    "h": 3500,
+    "ratio": 0.8,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAAYABMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDk1kjt0RpQcN0wK0I9kqFkHy/wkjBI96qRIqX9uZAkkaLtK9cZHWrkTMsSRXEoM24qmerCsJNXOmKZTkjXzDRUssEvmNwaKq5NjNjtblvnAYk4GR2FW7CKa2vBJjD5+V5EJHvRRSbuCikak1yhlY4FFFFKxdz/2Q==",
+    "grid": "/assets/projects/commercial-campaign/grid/commercial-campaign-13.jpg",
+    "full": "/assets/projects/commercial-campaign/full/commercial-campaign-13.jpg"
+   },
+   {
+    "slug": "commercial-campaign-14",
+    "title": "Frame 14",
+    "w": 2800,
+    "h": 3500,
+    "ratio": 0.8,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAAYABMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDn4QFY4OQOhx1qSO4S4gLKrAD+8MVVluFhUmH96pbh+wB6CoUubiSFUXbGituLKu3HryK57XVzpvbQmlUrIQeDRUi6mY1Clw+BjcwGTRS5n2D3SCC6MUiqVRoh94dyPSpJZIzHmBDbuCMMrnH5dKKKOVDTsrEeIDyUhyevFFFFPlRNkf/Z",
+    "grid": "/assets/projects/commercial-campaign/grid/commercial-campaign-14.jpg",
+    "full": "/assets/projects/commercial-campaign/full/commercial-campaign-14.jpg"
+   },
+   {
+    "slug": "commercial-campaign-15",
+    "title": "Frame 15",
+    "w": 2800,
+    "h": 3500,
+    "ratio": 0.8,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAAYABMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC/qnim30yJSUM8mQDGhGRUWh6yk895I5KSTyeaImbOxcAAf/q4rkdDtmkvRLK+CgbDKc7jg8k5zmp7SWaztmNyx3NJgSNy23HTnnFYsq1kdq+pLvPzUVygleUB47iMowyCSRRU88e5l7xzcMz2twH5QgZDKOc0+a7W4jClpAo6IDnHuKKK15b6lpsFMYUDfOPbbRRRSsHN5H//2Q==",
+    "grid": "/assets/projects/commercial-campaign/grid/commercial-campaign-15.jpg",
+    "full": "/assets/projects/commercial-campaign/full/commercial-campaign-15.jpg"
+   },
+   {
+    "slug": "commercial-campaign-16",
+    "title": "Frame 16",
+    "w": 2800,
+    "h": 3500,
+    "ratio": 0.8,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAAYABMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDduNXhtbVp5mwi46DJNYUnjKR9Uiht0j8hnUEtyxB69+K5O3aW5uLSKWR5LWNlBUt90ZGatxfZpZLW6FusBDOfLjYhRgjb1PvWLTtcaXc9AfUEDEbhRXFzXVykrBkfPXpRSTIuYMTSWs+9oty9gBwKleSO5ODM0aqcqGTOCe3096KKu19SostLeSxqFG98cbt2M0UUVHJHsRzM/9k=",
+    "grid": "/assets/projects/commercial-campaign/grid/commercial-campaign-16.jpg",
+    "full": "/assets/projects/commercial-campaign/full/commercial-campaign-16.jpg"
+   }
+  ],
+  "documents": []
+ },
+ {
+  "slug": "taos-project",
+  "name": "TAOS Project",
+  "type": "photography",
+  "description": "A twelve-frame photography project - on-location portraits and scenes shot with a Fujifilm XT5.",
+  "cover": "taos-project-01",
+  "photos": [
+   {
+    "slug": "taos-project-01",
+    "title": "Frame 01",
+    "w": 2800,
+    "h": 3500,
+    "ratio": 0.8,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAAYABMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC+PGVktvMtzJ5NzDIUZNmfxHrVGLxeZrm6uUuttopURwtCNwGOTn3OazfFemRJqazxxj53G8Z4J68/lWLpaSEXH7sBX2sEPuSRQB6xHKk0ayDoyg0VBal5bWKRcYZAR+VFAHNeLbV302eVeudwx1zxisCCKZp2PkvGE8lNoUn7qdcUUUAd5otw39j2vmRur+WMgjGKKKKAP//Z",
+    "grid": "/assets/projects/taos-project/grid/taos-project-01.jpg",
+    "full": "/assets/projects/taos-project/full/taos-project-01.jpg"
+   },
+   {
+    "slug": "taos-project-02",
+    "title": "Frame 02",
+    "w": 2800,
+    "h": 3500,
+    "ratio": 0.8,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAAYABMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDFj8H3F3aabJYMZHulPnFjhYzyfyAH51lX2my2uoXNpbk3S2pw8sa8dOf1yPwr1PSL+0ttLvvIj/dWcjBmiXcG9SMdcDr9K5nR/D19Da6jc2P2e4iuYdlrJ5xAfJ6keo9D3oA4gKSM8UVESynacgjgg0UAeuaaYn1C/slV4jOGeNmTCnlhlfUYIrI8JTpo11LY3WoRCFXIMMqMpRweqnkfrRRQBqP4O8NXDtMLbPmEtlLg459PmooooA//2Q==",
+    "grid": "/assets/projects/taos-project/grid/taos-project-02.jpg",
+    "full": "/assets/projects/taos-project/full/taos-project-02.jpg"
+   },
+   {
+    "slug": "taos-project-03",
+    "title": "Frame 03",
+    "w": 2800,
+    "h": 3500,
+    "ratio": 0.8,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAAYABMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDgACegJ+ldp4T8HWuqad9vvJmZTuUQxkAjtuz7elcnYXsthc+fEFY7WRlboysMEH8K9Z8OS6clhHeQww2r3KKDGrjlgOn1/WgDy7XNL/srV57ITCQREYZlIJyAefzor0nVrm1i1KZZc7+Cc47gH0ooA42w8D6hfxwXFtPbS20gDeYHIx6gjHWvS7rRNPvrM21zAsiFt2RwQ3qCOhoooA5W7+G5nunkTWJ9rHjzV3sB7nPNFFFAH//Z",
+    "grid": "/assets/projects/taos-project/grid/taos-project-03.jpg",
+    "full": "/assets/projects/taos-project/full/taos-project-03.jpg"
+   },
+   {
+    "slug": "taos-project-04",
+    "title": "Frame 04",
+    "w": 2800,
+    "h": 3500,
+    "ratio": 0.8,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAAYABMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDmYNVM07IkBZRyMEZ/Kr80628yxTho2bpuGBVaytltWOCNhbPTB/E1ZleK+nSCZ/NFypaI/wB1l4x+IFeupzivePHqqHNotBryIGILAH60VgXLvBcPEwDFDjNFJ4iKZ0LC3V7jri8naVysxQZwEz0FJaX0kF1FK/ziNiwGemaKK5JSdzr5IuNmitNJ5szyHOWYmiiiuZybZolbQ//Z",
+    "grid": "/assets/projects/taos-project/grid/taos-project-04.jpg",
+    "full": "/assets/projects/taos-project/full/taos-project-04.jpg"
+   },
+   {
+    "slug": "taos-project-05",
+    "title": "Frame 05",
+    "w": 2800,
+    "h": 3500,
+    "ratio": 0.8,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAAYABMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDnxhF3MQAO5rFuLyaZ87iEzwBwK2Lu382+gtlZJEb5wwPyuMZ/xFa1jo39qw7WjSFP4uhP4DtXqVLyWjsef7aFOzfU4ksxOSTz70V6EPBmlKApDsR3Mh5orl9lLuH1+n2f4f5ly9tbSBx5SICFC5wOB6VnefHby+Z5wTHoaKK7FseNTXPNpkja9abubhc/Wiiilc7PqVPuz//Z",
+    "grid": "/assets/projects/taos-project/grid/taos-project-05.jpg",
+    "full": "/assets/projects/taos-project/full/taos-project-05.jpg"
+   },
+   {
+    "slug": "taos-project-06",
+    "title": "Frame 06",
+    "w": 3000,
+    "h": 1687,
+    "ratio": 1.7783,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAANABgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCTWLopps8YcSSzqQybDgjHXI71xGn3UdrdxyXIkbyfuBMcfXNb/iWYgJbBVwxxuI5H0qj4Q0e31PU5hdEtHAN2wfxHPf2r0JuzVjycNZYdyn1/4Y17HVLa9A8sshPADrjP07Gik8VRpBbssahQvAxxiiuhVbLU56eEVZc8Xb8T/9k=",
+    "grid": "/assets/projects/taos-project/grid/taos-project-06.jpg",
+    "full": "/assets/projects/taos-project/full/taos-project-06.jpg"
+   },
+   {
+    "slug": "taos-project-07",
+    "title": "Frame 07",
+    "w": 3000,
+    "h": 1687,
+    "ratio": 1.7783,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAANABgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCzd6zptpdS2EjSrOuVzGM7TiuPvbqW5ZbqO8ncA7W38MnHtwQefyrt/E/h6yt3n1oJumPLxt905GPwPvWdoGk2l0l9FcoZI43VQM4yRk54+teZGnCguZI7nUdRamNZXkrKkUwfdIf3Mqfdf2z2aio76FdE1b7Mn7+2chjHJ09vxHrRWc4t2lBaP+u50U6mlpbo/9k=",
+    "grid": "/assets/projects/taos-project/grid/taos-project-07.jpg",
+    "full": "/assets/projects/taos-project/full/taos-project-07.jpg"
+   },
+   {
+    "slug": "taos-project-08",
+    "title": "Frame 08",
+    "w": 2800,
+    "h": 3500,
+    "ratio": 0.8,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAAYABMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDJ0PVbjSXaHz5VtpuQyqCF/wBrBHtiuxh1u1mkjhMm53O0Moyre/41wMy7oY44HWVY8IEQknnncBjkZyM+ta+hWOpnV4JpraVLeLAzN8u1R6Z69a8yrC/vN2PRjy2tudkyjdRWdca7p8M7RvcIGU4PNFcHK+xryyH6VoFjo4VojJLIuSrykEpkc7eOM1T8SRXUyNJbo0nybRtblT6gd6KKudSTkmyKXuao4hrWXcfMgk355ypzRRRXeqkrC5Uf/9k=",
+    "grid": "/assets/projects/taos-project/grid/taos-project-08.jpg",
+    "full": "/assets/projects/taos-project/full/taos-project-08.jpg"
+   },
+   {
+    "slug": "taos-project-09",
+    "title": "Frame 09",
+    "w": 2800,
+    "h": 3500,
+    "ratio": 0.8,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAAYABMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDm/CV5JZ69CUyUk+SQf7Pr+HWvQtV1K10yJHumYLIcLtXOTXnVj5unrHPC22d13btvKjsB9cV0+syifTdDN9l5JG3MRxnj/wCuK8zEJTnfod9ODjFI3LeaK7gSeEkxuMgkYNFYOma3b2thHA8DIyZBXJ45NFcEqTu7I6uSRJHpzajdm2UCOFoVd29OoAH+Hua2PEFuh0SYqi/uEDJx0CkHA/AUUVrB6IirJ+0I4baCSJXVVIYZB9aKKK47GjnK+5//2Q==",
+    "grid": "/assets/projects/taos-project/grid/taos-project-09.jpg",
+    "full": "/assets/projects/taos-project/full/taos-project-09.jpg"
+   },
+   {
+    "slug": "taos-project-10",
+    "title": "Frame 10",
+    "w": 5152,
+    "h": 6440,
+    "ratio": 0.8,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAAYABMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDhooZZ5UigQvJI21VA6mp9Q02802RluIiVU7S65K59M+tdV4ICPZSLcKixqzbW6N8wAJz+AH41T8Xanvto7C2mV7YHHzcuNvr+P8qx5tbHXKL3uctmik6UVZNz1HVNGuJLfZpk0MBGeGXgg9q5m88HSJp5lgnMlzH/AKxWwA/+7RRWT93Yad9zlSDmiiitQsf/2Q==",
+    "grid": "/assets/projects/taos-project/grid/taos-project-10.jpg",
+    "full": "/assets/projects/taos-project/full/taos-project-10.jpg"
+   },
+   {
+    "slug": "taos-project-11",
+    "title": "Frame 11",
+    "w": 2800,
+    "h": 3500,
+    "ratio": 0.8,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAAYABMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDkVRm4QZb0qaayuLYf6QgHIwVOQcjNW9HjhuHliLlZiuE//XV28MYN9aT3GXREeMNwcjqP1ricnex9HaOmpgFaKkIoquYfsx+jSFNSyTjKkfpUUtw099JJIfmY8/yooq7Lmfoc6bUI+o4miiiosdPMz//Z",
+    "grid": "/assets/projects/taos-project/grid/taos-project-11.jpg",
+    "full": "/assets/projects/taos-project/full/taos-project-11.jpg"
+   },
+   {
+    "slug": "taos-project-12",
+    "title": "Frame 12",
+    "w": 1672,
+    "h": 941,
+    "ratio": 1.7768,
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA8KCw0LCQ8NDA0REA8RFiUYFhQUFi0gIhslNS84NzQvNDM7QlVIOz9QPzM0SmRLUFdaX2BfOUdob2dcblVdX1v/2wBDARARERYTFisYGCtbPTQ9W1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1v/wAARCAAOABgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDjkHy8daerBmCbSHP8OOtCRAr1I+lP8kLyDg+uOa5G0fRQhO2hEcEsB2ODRSPuOTu796KpIwlKz1R//9k=",
+    "grid": "/assets/projects/taos-project/grid/taos-project-12.jpg",
+    "full": "/assets/projects/taos-project/full/taos-project-12.jpg"
+   }
+  ],
+  "documents": []
+ },
+ {
+  "slug": "employment-relations",
+  "name": "Employment Relations",
+  "type": "research",
+  "description": "Coursework on employment relationships - essays and analyses covering workplace fairness, employer-employee relations and contemporary HRM debates.",
+  "cover": "",
+  "photos": [],
+  "documents": [
+   {
+    "name": "BUSM4769 ASM1.docx",
+    "file": "busm4769-asm1.docx",
+    "ext": "docx",
+    "size": 2591049
+   },
+   {
+    "name": "ASM 2 ER.docx",
+    "file": "asm-2-er.docx",
+    "ext": "docx",
+    "size": 2592339
+   },
+   {
+    "name": "ASM 3 ER.docx",
+    "file": "asm-3-er.docx",
+    "ext": "docx",
+    "size": 2593516
+   }
+  ]
+ },
+ {
+  "slug": "people-analytics",
+  "name": "People Analytics",
+  "type": "research",
+  "description": "Data-driven people decisions - team analytics reports and assessments that use workforce metrics to answer real HR questions.",
+  "cover": "",
+  "photos": [],
+  "documents": [
+   {
+    "name": "AS3_SGS_TUT01_Team 4-1.docx",
+    "file": "as3-sgs-tut01-team-4-1.docx",
+    "ext": "docx",
+    "size": 11443654
+   },
+   {
+    "name": "ASM 1.docx",
+    "file": "asm-1.docx",
+    "ext": "docx",
+    "size": 28038
+   },
+   {
+    "name": "People Analytics ASM 2 (1).docx",
+    "file": "people-analytics-asm-2-1.docx",
+    "ext": "docx",
+    "size": 375030
+   }
+  ]
+ },
+ {
+  "slug": "understanding-the-business-environment",
+  "name": "Understanding the Business Environment",
+  "type": "research",
+  "description": "Case study analyses of how economic, political and social forces shape the decisions businesses make.",
+  "cover": "",
+  "photos": [],
+  "documents": [
+   {
+    "name": "BUSM2565-Assessment-Report.docx",
+    "file": "busm2565-assessment-report.docx",
+    "ext": "docx",
+    "size": 12976
+   },
+   {
+    "name": "BUSM2565_SG_G10_Team 02_ Business Environment Report.pdf",
+    "file": "busm2565-sg-g10-team-02-business-environment-report.pdf",
+    "ext": "pdf",
+    "size": 16739136
+   },
+   {
+    "name": "Case Study Analysis UBE ASM 3.docx",
+    "file": "case-study-analysis-ube-asm-3.docx",
+    "ext": "docx",
+    "size": 29348
+   },
+   {
+    "name": "Self Reflection.docx",
+    "file": "self-reflection.docx",
+    "ext": "docx",
+    "size": 14973
+   }
+  ]
+ },
+ {
+  "slug": "work-in-global-society",
+  "name": "Work in Global Society",
+  "type": "research",
+  "description": "Reflections on working in a globalised world - CV valuation, recruitment processes and a narrative ePortfolio.",
+  "cover": "",
+  "photos": [],
+  "documents": [
+   {
+    "name": "Assessment 2_ Narrative of ePortfolio, CV Valuation, and Recruitment Process.pdf",
+    "file": "assessment-2-narrative-of-eportfolio-cv-valuation-and-recruitment-process.pdf",
+    "ext": "pdf",
+    "size": 320958
+   },
+   {
+    "name": "BUSM4561 ASM1.docx",
+    "file": "busm4561-asm1.docx",
+    "ext": "docx",
+    "size": 6387938
+   },
+   {
+    "name": "BUSM4561_SGSG03_Team06_Asm2-1.docx",
+    "file": "busm4561-sgsg03-team06-asm2-1.docx",
+    "ext": "docx",
+    "size": 48311
+   }
+  ]
+ }
+]

@@ -15,20 +15,20 @@ type Dict = Record<string, string>;
 
 const en: Dict = {
   "html.lang": "en",
-  "meta.title": "Thinh Do — gayshit123 · Photographer",
+  "meta.title": "Thinh Do — Do Duy Thinh · Photographer",
   "meta.desc":
-    "Thinh Do (gayshit123) — photographer. Cinematic portrait photography from Vietnam.",
+    "Thinh Do (Do Duy Thinh) — photographer. Cinematic portrait photography from Vietnam.",
 
   "nav.about": "About",
   "nav.craft": "Craft",
-  "nav.gallery": "Gallery",
+  "nav.projects": "Projects",
   "nav.contact": "Contact",
 
   "hero.role1": "Photographer",
   "hero.role2": "Visual Storyteller",
   "hero.lede":
     "I chase light for a living and frame it for the love of it. Portraits by day, golden hour by night.",
-  "hero.cta1": "View the gallery",
+  "hero.cta1": "View the projects",
   "hero.cta2": "About me",
   "hero.basedIn": "Based in",
   "hero.basedInVal": "Vietnam",
@@ -39,7 +39,7 @@ const en: Dict = {
   "about.caption": "On location, chasing the last light.",
   "about.h2": "One camera,<br><em>one obsession</em> — looking<br>closely at light.",
   "about.body":
-    "<p>I'm <strong>Thinh Do</strong>, better known online as <strong>gayshit123</strong>. " +
+    "<p>I'm <strong>Thinh Do</strong>, better known online as <strong>Do Duy Thinh</strong>. " +
     "Photography is how I look at the world: I spend my days chasing light, reading faces, " +
     "and finding frames where other people only see a crowd.</p>" +
     "<p>Portraits are the main stage. Every shoot turns out to be the same ritual — " +
@@ -47,11 +47,12 @@ const en: Dict = {
     "for the one frame where everything lines up. A perfect backlit portrait and a perfect " +
     "candid have the exact same feeling.</p>" +
     "<p>Most of what you'll see here is <strong>portraits, fashion, food and product work</strong>. " +
-    "I shoot wide and cinematic with a Sony A7RV and a Sony FE GM 70-200mm, " +
+    "I shoot wide and cinematic with a Fujifilm XT5, " +
     "because I like the world better when it's framed cleanly.</p>",
 
-  "stats.frames": "Frames on show",
-  "stats.series": "Series",
+  "stats.projects": "Projects",
+  "stats.photos": "Photographs",
+  "stats.papers": "Research papers",
   "stats.ratio": "Aspect ratio",
   "stats.golden": "Golden hours",
 
@@ -75,17 +76,20 @@ const en: Dict = {
   "craft.note3":
     "Behind the scenes — public parks, no permits, a lot of walking, and whatever light the sky decides to give us.",
 
-  "gal.num": "03 — Gallery",
-  "gal.h2": "Selected frames",
+  "gal.num": "03 — Projects",
+  "gal.h2": "Selected projects",
   "gal.intro":
-    "Frames from a year of chasing light. Click any image for the full uncropped frame — arrow keys and swipe both work.",
-  "gal.empty": "No frames in this set yet.",
+    "Six projects — two photography essays and four research papers. Click any project to explore its frames or read its papers.",
+  "gal.empty": "No projects in this set yet.",
   "chip.all": "All",
-  "chip.portrait": "Portrait",
-  "chip.fashion": "Fashion",
-  "chip.food": "Food",
-  "chip.product": "Product",
-  "chip.editorial": "Editorial",
+  "chip.photography": "Photography",
+  "chip.research": "Research",
+  "projects.type.photography": "Photography",
+  "projects.type.research": "Research",
+  "projects.frames": "frames",
+  "projects.papers": "papers",
+  "projects.open": "View project",
+  "projects.documents": "Documents",
 
   "contact.num": "04 — Contact",
   "contact.h2": "Got a shoot,<br>a new idea,<br><em>or just want to talk?</em>",
@@ -103,20 +107,20 @@ const en: Dict = {
 
 const vi: Dict = {
   "html.lang": "vi",
-  "meta.title": "Thinh Do — gayshit123 · Nhiếp ảnh",
+  "meta.title": "Thinh Do — Do Duy Thinh · Nhiếp ảnh",
   "meta.desc":
-    "Thinh Do (gayshit123) — nhiếp ảnh gia. Ảnh chân dung điện ảnh từ Việt Nam.",
+    "Thinh Do (Do Duy Thinh) — nhiếp ảnh gia. Ảnh chân dung điện ảnh từ Việt Nam.",
 
   "nav.about": "Giới thiệu",
   "nav.craft": "Công việc",
-  "nav.gallery": "Thư viện",
+  "nav.projects": "Dự án",
   "nav.contact": "Liên hệ",
 
   "hero.role1": "Nhiếp ảnh",
   "hero.role2": "Kể chuyện bằng hình",
   "hero.lede":
     "Tôi săn ánh sáng để kiếm sống và đóng khung nó vì đam mê. Chân dung ban ngày, giờ vàng ban chiều.",
-  "hero.cta1": "Xem thư viện ảnh",
+  "hero.cta1": "Xem dự án",
   "hero.cta2": "Về tôi",
   "hero.basedIn": "Đang ở",
   "hero.basedInVal": "Việt Nam",
@@ -127,7 +131,7 @@ const vi: Dict = {
   "about.caption": "Tại hiện trường, đuổi theo ánh sáng cuối ngày.",
   "about.h2": "Một chiếc máy ảnh,<br><em>một nỗi ám ảnh</em> — nhìn<br>thật kỹ vào ánh sáng.",
   "about.body":
-    "<p>Tôi là <strong>Thinh Do</strong>, trên mạng hay được biết đến với tên <strong>gayshit123</strong>. " +
+    "<p>Tôi là <strong>Thinh Do</strong>, trên mạng hay được biết đến với tên <strong>Do Duy Thinh</strong>. " +
     "Nhiếp ảnh là cách tôi nhìn thế giới: cả ngày rong ruổi theo ánh sáng, đọc khuôn mặt, " +
     "và tìm những khung hình ở nơi người khác chỉ thấy một đám đông.</p>" +
     "<p>Chân dung là sân khấu chính. Hoá ra mỗi buổi chụp đều là cùng một nghi thức — " +
@@ -135,11 +139,12 @@ const vi: Dict = {
     "khi mọi thứ khớp vào nhau. Một bức chân dung ngược sáng hoàn hảo và một khoảnh khắc bất chợt " +
     "hoàn hảo cho cảm giác y hệt nhau.</p>" +
     "<p>Phần lớn những gì bạn thấy ở đây là <strong>chân dung, thời trang, ẩm thực và sản phẩm</strong>. " +
-    "Tôi chụp rộng và điện ảnh bằng Sony A7RV cùng ống Sony FE GM 70-200mm, " +
+    "Tôi chụp rộng và điện ảnh bằng Fujifilm XT5, " +
     "bởi tôi thấy thế giới đẹp hơn khi được đóng khung gọn gàng.</p>",
 
-  "stats.frames": "Ảnh đang trưng bày",
-  "stats.series": "Bộ ảnh",
+  "stats.projects": "Dự án",
+  "stats.photos": "Ảnh",
+  "stats.papers": "Bài nghiên cứu",
   "stats.ratio": "Tỉ lệ khung hình",
   "stats.golden": "Giờ vàng",
 
@@ -163,17 +168,20 @@ const vi: Dict = {
   "craft.note3":
     "Hậu trường — công viên công cộng, không giấy phép, đi bộ rất nhiều, và bất cứ thứ ánh sáng nào bầu trời chịu cho.",
 
-  "gal.num": "03 — Thư viện",
-  "gal.h2": "Ảnh chọn lọc",
+  "gal.num": "03 — Dự án",
+  "gal.h2": "Dự án tiêu biểu",
   "gal.intro":
-    "Những khung hình từ một năm rong ruổi theo ánh sáng. Bấm vào ảnh bất kỳ để xem khung đầy đủ, không cắt cúp — dùng phím mũi tên hoặc vuốt đều được.",
-  "gal.empty": "Chưa có ảnh nào trong nhóm này.",
+    "Sáu dự án — hai bộ ảnh và bốn bài nghiên cứu. Bấm vào bất kỳ dự án nào để xem ảnh hoặc đọc bài nghiên cứu.",
+  "gal.empty": "Chưa có dự án nào trong nhóm này.",
   "chip.all": "Tất cả",
-  "chip.portrait": "Chân dung",
-  "chip.fashion": "Thời trang",
-  "chip.food": "Ẩm thực",
-  "chip.product": "Sản phẩm",
-  "chip.editorial": "Phóng sự",
+  "chip.photography": "Nhiếp ảnh",
+  "chip.research": "Nghiên cứu",
+  "projects.type.photography": "Nhiếp ảnh",
+  "projects.type.research": "Nghiên cứu",
+  "projects.frames": "ảnh",
+  "projects.papers": "bài nghiên cứu",
+  "projects.open": "Xem dự án",
+  "projects.documents": "Tài liệu",
 
   "contact.num": "04 — Liên hệ",
   "contact.h2": "Cần chụp ảnh,<br>có ý tưởng mới,<br><em>hay chỉ muốn trò chuyện?</em>",
@@ -255,7 +263,15 @@ const I18nContext = createContext<I18nValue>({
   t: (k) => k,
 });
 
-export function I18nProvider({ children }: { children: ReactNode }) {
+export function I18nProvider({
+  children,
+  title,
+  desc,
+}: {
+  children: ReactNode;
+  title?: Record<Lang, string>;
+  desc?: Record<Lang, string>;
+}) {
   const langValue = useSyncExternalStore(
     subscribe,
     getSnapshot,
@@ -265,10 +281,10 @@ export function I18nProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     const dict = DICTS[langValue];
     document.documentElement.lang = dict["html.lang"] ?? langValue;
-    document.title = dict["meta.title"];
+    document.title = title?.[langValue] ?? dict["meta.title"];
     const md = document.querySelector('meta[name="description"]');
-    if (md) md.setAttribute("content", dict["meta.desc"]);
-  }, [langValue]);
+    if (md) md.setAttribute("content", desc?.[langValue] ?? dict["meta.desc"]);
+  }, [langValue, title, desc]);
 
   const setLang = useCallback((l: Lang) => setLangStore(l), []);
 

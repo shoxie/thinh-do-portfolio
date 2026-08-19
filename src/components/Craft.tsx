@@ -27,12 +27,12 @@ export function Craft() {
                 <i />
                 <i />
                 <i />
-                <span>gayshit123 — zsh</span>
+                <span>Do Duy Thinh — zsh</span>
               </div>
               <pre className="term__body">
                 <code>
                   <span className="c">$</span> whoami{"\n"}
-                  gayshit123{"\n\n"}
+                  Do Duy Thinh{"\n\n"}
                   <span className="c">$</span> cat ~/.focus{"\n"}
                   <span className="g">▸</span> portrait &amp; editorial work{"\n"}
                   <span className="g">▸</span> fashion &amp; studio shoots{"\n"}

@@ -29,7 +29,7 @@ export function Preloader() {
           exit={{ opacity: 0, transition: { duration: 0.7, ease: [0.22, 0.61, 0.36, 1] } }}
         >
           <div className="preloader__inner">
-            <div className="preloader__mark">gayshit123</div>
+            <div className="preloader__mark">Do Duy Thinh</div>
             <div className="preloader__bar">
               <i />
             </div>

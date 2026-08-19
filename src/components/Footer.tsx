@@ -19,7 +19,7 @@ export function Footer() {
       <div className="wrap footer__in">
         <div className="footer__l">
           <span className="footer__brand">Thinh Do</span>
-          <span className="footer__alias">gayshit123</span>
+          <span className="footer__alias">Do Duy Thinh</span>
         </div>
         <p className="footer__c">
           © {year} — {t("footer.copy")}

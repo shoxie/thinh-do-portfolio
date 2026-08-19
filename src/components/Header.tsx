@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useI18n, type Lang } from "@/lib/i18n";
@@ -7,13 +8,15 @@ import { useI18n, type Lang } from "@/lib/i18n";
 const NAV = [
   { href: "#about", key: "nav.about" },
   { href: "#craft", key: "nav.craft" },
-  { href: "#gallery", key: "nav.gallery" },
+  { href: "#projects", key: "nav.projects" },
   { href: "#contact", key: "nav.contact" },
 ] as const;
 
 const SOCIALS = [
   { href: "https://www.facebook.com/duythinhdo3", label: "Facebook" },
 ];
+
+type NavItem = { href: string; key: string };
 
 function LangSwitch({ variant }: { variant?: "mob" }) {
   const { lang, setLang } = useI18n();
@@ -39,8 +42,15 @@ function LangSwitch({ variant }: { variant?: "mob" }) {
   );
 }
 
-export function Header() {
+export function Header({
+  nav,
+  homeHref = "#top",
+}: {
+  nav?: NavItem[];
+  homeHref?: string;
+}) {
   const { t } = useI18n();
+  const items = nav ?? NAV;
   const [solid, setSolid] = useState(false);
   const [hidden, setHidden] = useState(false);
   const [navOpen, setNavOpen] = useState(false);
@@ -90,16 +100,16 @@ export function Header() {
       <header
         className={`header ${solid ? "is-solid" : ""} ${hidden && !navOpen ? "is-hidden" : ""}`}
       >
-        <a className="header__brand" href="#top">
+        <Link className="header__brand" href={homeHref}>
           <span className="header__dot" />
           <span className="header__name">Thinh&nbsp;Do</span>
-          <span className="header__alias">/ gayshit123</span>
-        </a>
+          <span className="header__alias">/ Do Duy Thinh</span>
+        </Link>
         <nav className="header__nav" aria-label="Primary">
-          {NAV.map((n) => (
-            <a key={n.href} href={n.href}>
+          {items.map((n) => (
+            <Link key={n.href} href={n.href}>
               {t(n.key)}
-            </a>
+            </Link>
           ))}
         </nav>
         <LangSwitch />
@@ -127,10 +137,10 @@ export function Header() {
             transition={{ duration: 0.45, ease: [0.22, 0.61, 0.36, 1] }}
           >
             <nav className="mobnav__list">
-              {NAV.map((n, i) => (
-                <a key={n.href} href={n.href} onClick={closeNav}>
+              {items.map((n, i) => (
+                <Link key={n.href} href={n.href} onClick={closeNav}>
                   <em>0{i + 1}</em> <span>{t(n.key)}</span>
-                </a>
+                </Link>
               ))}
             </nav>
             <LangSwitch variant="mob" />

@@ -218,12 +218,12 @@ export function Hero() {
           </span>
         </h1>
         <p className="hero__alias">
-          <span className="br">[</span>&nbsp;gayshit123&nbsp;
+          <span className="br">[</span>&nbsp;Do Duy Thinh&nbsp;
           <span className="br">]</span>
         </p>
         <p className="hero__lede">{t("hero.lede")}</p>
         <div className="hero__actions">
-          <a className="btn btn--primary" href="#gallery">
+          <a className="btn btn--primary" href="#projects">
             <span>{t("hero.cta1")}</span>
             <svg viewBox="0 0 24 24" width="16" height="16">
               <path
@@ -249,7 +249,7 @@ export function Hero() {
         </div>
         <div className="hero__metacol">
           <span className="k">{t("hero.shotOn")}</span>
-          <span className="v">Sony A7RV · Sony FE GM 70-200 F1.2 · Cinematic</span>
+          <span className="v">Fujifilm XT5 · Cinematic</span>
         </div>
         <div className="hero__metacol hero__metacol--sound">
           <button
