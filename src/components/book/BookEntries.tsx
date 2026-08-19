@@ -1,196 +1,17 @@
 "use client";
 
-import Link from "next/link";
-import type { CSSProperties, ReactNode } from "react";
 import {
-  BOOK,
-  CAMPAIGN,
-  type BookBlock,
-  type BookEntry,
-  type CampaignImg,
-} from "@/lib/campaign";
+  Block,
+  BookEnd,
+  Duo,
+  EntryShell,
+  Fig,
+  LeadSpread,
+} from "@/components/book/BookKit";
+import { BOOK, CAMPAIGN, type BookEntry } from "@/lib/campaign";
 import { useI18n } from "@/lib/i18n";
 import { nextProjectSlug, PROJECTS } from "@/lib/projectPages";
 import { Reveal, Rich } from "@/lib/reveal";
-
-function Fig({
-  m,
-  alt,
-  caption,
-}: {
-  m: CampaignImg;
-  alt: string;
-  caption?: string;
-}) {
-  return (
-    <figure className="bk-fig">
-      <div
-        className="bk-fig__box"
-        style={{ "--r": String(m.w / m.h) } as CSSProperties}
-      >
-        <span
-          className="bk-fig__ph"
-          style={{ backgroundImage: `url('${m.lqip}')` }}
-        />
-        <img
-          src={m.src}
-          alt={alt}
-          loading="lazy"
-          decoding="async"
-          width={m.w}
-          height={m.h}
-        />
-      </div>
-      {caption ? <figcaption>{caption}</figcaption> : null}
-    </figure>
-  );
-}
-
-function Paras({ block }: { block: BookBlock }) {
-  const split = block.split ?? block.paras.length;
-  return (
-    <>
-      {block.paras.slice(0, split).map((p, i) => (
-        <p key={`a-${i}`}>{p}</p>
-      ))}
-      {block.label2 ? <p className="bk-copy__label">{block.label2}</p> : null}
-      {block.paras.slice(split).map((p, i) => (
-        <p key={`b-${i}`}>{p}</p>
-      ))}
-    </>
-  );
-}
-
-function EntryShell({
-  entry,
-  alt,
-  children,
-}: {
-  entry: BookEntry;
-  alt?: boolean;
-  children: ReactNode;
-}) {
-  return (
-    <section
-      className={`bk-entry section ${alt ? "bk-entry--alt" : ""}`}
-      id={entry.id}
-    >
-      <div className="wrap">
-        <header className="bk-entry__head">
-          <Reveal>
-            <p className="secnum">{entry.num}</p>
-            <Rich as="h2" className="h2" html={entry.h2} />
-          </Reveal>
-          <Reveal delay={0.12}>
-            <p className="bk-entry__meta">{entry.meta}</p>
-          </Reveal>
-        </header>
-        {children}
-      </div>
-    </section>
-  );
-}
-
-function LeadSpread({
-  block,
-  media,
-  flip,
-}: {
-  block: BookBlock;
-  media: ReactNode;
-  flip?: boolean;
-}) {
-  return (
-    <div className={`bk-spread ${flip ? "bk-spread--flip" : ""}`}>
-      {flip ? (
-        <Reveal className="bk-spread__media" delay={0.05}>
-          {media}
-        </Reveal>
-      ) : null}
-      <Reveal className="bk-spread__copy">
-        <div className="bk-copy">
-          {block.label ? <p className="bk-copy__label">{block.label}</p> : null}
-          <Paras block={block} />
-        </div>
-      </Reveal>
-      {!flip ? (
-        <Reveal className="bk-spread__media" delay={0.08}>
-          {media}
-        </Reveal>
-      ) : null}
-    </div>
-  );
-}
-
-function Block({
-  block,
-  media,
-  flip,
-  textOnly,
-}: {
-  block: BookBlock;
-  media?: ReactNode;
-  flip?: boolean;
-  textOnly?: boolean;
-}) {
-  const cls = [
-    "bk-block",
-    flip ? "bk-block--flip" : "",
-    textOnly ? "bk-block--text" : "",
-  ]
-    .filter(Boolean)
-    .join(" ");
-  return (
-    <div className={cls}>
-      <Reveal className="bk-block__head">
-        {block.label ? <p className="bk-copy__label">{block.label}</p> : null}
-        {block.heading ? (
-          <h3 className="bk-block__h3">{block.heading}</h3>
-        ) : null}
-        {block.tags ? (
-          <ul className="bk-tags">
-            {block.tags.map((tag) => (
-              <li key={tag}>{tag}</li>
-            ))}
-          </ul>
-        ) : null}
-      </Reveal>
-      {media ? (
-        <Reveal className="bk-block__media" delay={0.08}>
-          {media}
-        </Reveal>
-      ) : null}
-      <Reveal className="bk-block__body" delay={0.05}>
-        <div className="bk-copy">
-          <Paras block={block} />
-        </div>
-      </Reveal>
-    </div>
-  );
-}
-
-function Duo({
-  a,
-  b,
-  altA,
-  altB,
-  capA,
-  capB,
-}: {
-  a: CampaignImg;
-  b: CampaignImg;
-  altA: string;
-  altB: string;
-  capA?: string;
-  capB?: string;
-}) {
-  return (
-    <div className="bk-duo">
-      <Fig m={a} alt={altA} caption={capA} />
-      <Fig m={b} alt={altB} caption={capB} />
-    </div>
-  );
-}
 
 function PortraitEntry({ entry }: { entry: BookEntry }) {
   const [light, narrative, challenges] = entry.blocks;
@@ -414,32 +235,17 @@ function BtsSection() {
   );
 }
 
-function BookEnd() {
+function CampaignEnd() {
   const { lang } = useI18n();
   const c = CAMPAIGN[lang];
   const nextSlug = nextProjectSlug("commercial-campaign");
   return (
-    <section className="bk-end section">
-      <div className="wrap pr-end__in">
-        <Reveal>
-          <Link className="bk-end__link" href="/">
-            <span className="bk-end__arw">←</span>
-            <span>{c.back}</span>
-          </Link>
-        </Reveal>
-        {nextSlug ? (
-          <Reveal delay={0.08}>
-            <Link className="pr-end__next" href={`/projects/${nextSlug}`}>
-              <span className="pr-end__nextk">{c.next}</span>
-              <span className="pr-end__nextv">
-                {PROJECTS.find((p) => p.slug === nextSlug)?.name}
-                <span className="pr-end__nexta">→</span>
-              </span>
-            </Link>
-          </Reveal>
-        ) : null}
-      </div>
-    </section>
+    <BookEnd
+      back={c.back}
+      next={c.next}
+      nextHref={nextSlug ? `/projects/${nextSlug}` : undefined}
+      nextName={PROJECTS.find((p) => p.slug === nextSlug)?.name}
+    />
   );
 }
 
@@ -453,7 +259,7 @@ export function BookEntries() {
       <ProductEntry entry={entries[2]} />
       <FoodEntry entry={entries[3]} />
       <BtsSection />
-      <BookEnd />
+      <CampaignEnd />
     </>
   );
 }

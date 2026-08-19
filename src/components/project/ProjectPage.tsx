@@ -3,23 +3,23 @@
 import { MotionConfig } from "framer-motion";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
-import { BookCover } from "@/components/book/BookCover";
+import { BookCover } from "@/components/book/BookKit";
 import { BookEntries } from "@/components/book/BookEntries";
+import { TaosBook } from "@/components/book/TaosBook";
 import { Grain, Scanline, ScrollProgress } from "@/components/Overlays";
 import { PhotoEssay } from "@/components/project/PhotoEssay";
 import { ResearchProject } from "@/components/project/ResearchProject";
+import { BOOK, campaignCoverContent } from "@/lib/campaign";
 import { I18nProvider } from "@/lib/i18n";
 import { SUB_NAV, type Project } from "@/lib/projectPages";
 
 export function ProjectPage({ project }: { project: Project }) {
-  const isBook = project.slug === "commercial-campaign";
-
   return (
     <MotionConfig reducedMotion="user">
       <I18nProvider
         title={{
-          en: `${project.name} — Thinh Do · Do Duy Thinh`,
-          vi: `${project.name} — Thinh Do · Do Duy Thinh`,
+          en: `${project.name} — Thinh Do · gayshit123`,
+          vi: `${project.name} — Thinh Do · gayshit123`,
         }}
       >
         <Grain />
@@ -27,11 +27,16 @@ export function ProjectPage({ project }: { project: Project }) {
         <ScrollProgress />
         <Header nav={[...SUB_NAV]} homeHref="/" />
         <main id="top">
-          {isBook ? (
+          {project.slug === "commercial-campaign" ? (
             <>
-              <BookCover />
+              <BookCover
+                content={campaignCoverContent()}
+                coverImg={BOOK.cover}
+              />
               <BookEntries />
             </>
+          ) : project.slug === "taos-project" ? (
+            <TaosBook />
           ) : project.type === "photography" ? (
             <PhotoEssay project={project} />
           ) : (

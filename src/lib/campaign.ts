@@ -201,6 +201,19 @@ export type BookBlock = {
   paras: string[];
 };
 
+export type CoverContent = {
+  eyebrow: string;
+  title1: string;
+  title2: string;
+  lede: string;
+  meta: { k: string; v: string }[];
+  cta: string;
+  tocNum: string;
+  tocH2: string;
+  tocNote: string;
+  tocRows: { id: string; name: string; en: string }[];
+};
+
 export type BookEntry = {
   id: string;
   num: string;
@@ -233,6 +246,41 @@ export type BookContent = {
   next: string;
   entries: BookEntry[];
 };
+
+export const campaignCoverContent = (): Record<"en" | "vi", CoverContent> => ({
+  en: {
+    eyebrow: CAMPAIGN.en.eyebrow,
+    title1: CAMPAIGN.en.title1,
+    title2: CAMPAIGN.en.title2,
+    lede: CAMPAIGN.en.lede,
+    meta: [
+      { k: CAMPAIGN.en.byK, v: CAMPAIGN.en.byV },
+      { k: CAMPAIGN.en.dateK, v: CAMPAIGN.en.dateV },
+      { k: CAMPAIGN.en.specK, v: CAMPAIGN.en.specV },
+    ],
+    cta: CAMPAIGN.en.cta,
+    tocNum: CAMPAIGN.en.tocNum,
+    tocH2: CAMPAIGN.en.tocH2,
+    tocNote: CAMPAIGN.en.tocNote,
+    tocRows: CAMPAIGN.en.tocRows,
+  },
+  vi: {
+    eyebrow: CAMPAIGN.vi.eyebrow,
+    title1: CAMPAIGN.vi.title1,
+    title2: CAMPAIGN.vi.title2,
+    lede: CAMPAIGN.vi.lede,
+    meta: [
+      { k: CAMPAIGN.vi.byK, v: CAMPAIGN.vi.byV },
+      { k: CAMPAIGN.vi.dateK, v: CAMPAIGN.vi.dateV },
+      { k: CAMPAIGN.vi.specK, v: CAMPAIGN.vi.specV },
+    ],
+    cta: CAMPAIGN.vi.cta,
+    tocNum: CAMPAIGN.vi.tocNum,
+    tocH2: CAMPAIGN.vi.tocH2,
+    tocNote: CAMPAIGN.vi.tocNote,
+    tocRows: CAMPAIGN.vi.tocRows,
+  },
+});
 
 export const CAMPAIGN: Record<"en" | "vi", BookContent> = {
   en: {

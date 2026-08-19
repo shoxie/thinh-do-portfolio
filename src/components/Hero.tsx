@@ -17,40 +17,7 @@ const clamp01 = (v: number) => Math.min(Math.max(v, 0), 1);
 
 export function Hero() {
   const { t } = useI18n();
-  const videoRef = useRef<HTMLVideoElement>(null);
   const heroRef = useRef<HTMLElement>(null);
-
-  /* ── hero video ── */
-  useEffect(() => {
-    const v = videoRef.current;
-    if (!v) return;
-    const tryPlay = () => {
-      v.muted = true;
-      const p = v.play();
-      if (p && p.catch) p.catch(() => {});
-    };
-    v.addEventListener("loadeddata", tryPlay, { once: true });
-    tryPlay();
-    const nudge = () => {
-      if (v.paused) tryPlay();
-    };
-    window.addEventListener("touchstart", nudge, { once: true, passive: true });
-    window.addEventListener("click", nudge, { once: true, passive: true });
-
-    const io = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((e) => (e.isIntersecting ? tryPlay() : v.pause()));
-      },
-      { threshold: 0.05 },
-    );
-    if (heroRef.current) io.observe(heroRef.current);
-
-    return () => {
-      window.removeEventListener("touchstart", nudge);
-      window.removeEventListener("click", nudge);
-      io.disconnect();
-    };
-  }, []);
 
   /* ── background music ── */
   const bgmRef = useRef<HTMLAudioElement>(null);
@@ -176,16 +143,10 @@ export function Hero() {
   return (
     <section className="hero" id="hero" ref={heroRef}>
       <div className="hero__media">
-        <video
-          ref={videoRef}
-          className="hero__video"
-          muted
-          loop
-          playsInline
-          autoPlay
-          preload="auto"
-          src="/assets/video/hero.mp4"
-          poster="/assets/video/poster.jpg"
+        <img
+          className="hero__bg"
+          src="/assets/hero/hero-bg.png"
+          alt=""
           aria-hidden="true"
         />
         <div className="hero__scrim" />
