@@ -230,6 +230,7 @@ export type BookContent = {
   btsH2: string;
   btsMeta: string;
   back: string;
+  next: string;
   entries: BookEntry[];
 };
 
@@ -261,6 +262,7 @@ export const CAMPAIGN: Record<"en" | "vi", BookContent> = {
     btsH2: "Behind the <em>scenes</em>",
     btsMeta: "2026 Collection",
     back: "Back to the portfolio",
+    next: "Next project",
     entries: [
       {
         id: "entry-01",
@@ -314,7 +316,7 @@ export const CAMPAIGN: Record<"en" | "vi", BookContent> = {
         },
         blocks: [
           {
-            heading: "Craftaesthetic",
+            heading: "Craft aesthetic",
             label: "Posing · Props & Composition",
             tags: ["Props", "Styling"],
             paras: [
@@ -424,6 +426,7 @@ export const CAMPAIGN: Record<"en" | "vi", BookContent> = {
     btsH2: "Hậu <em>trường</em>",
     btsMeta: "Bộ sưu tập 2026",
     back: "Quay lại portfolio",
+    next: "Dự án tiếp theo",
     entries: [
       {
         id: "entry-01",
@@ -477,7 +480,7 @@ export const CAMPAIGN: Record<"en" | "vi", BookContent> = {
         },
         blocks: [
           {
-            heading: "Craftaesthetic",
+            heading: "Craft aesthetic",
             label: "Tạo dáng · Đạo cụ & Bố cục",
             tags: ["Đạo cụ", "Tạo dáng"],
             paras: [

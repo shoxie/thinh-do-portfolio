@@ -5,7 +5,7 @@
    "type": "photography",
    "description": "A complete commercial campaign - fashion, food, portrait and product photography shot on location.",
    "cover": "commercial-campaign-01",
-   "page": "/commercial-campaign",
+   "page": "/projects/commercial-campaign",
   "photos": [
    {
     "slug": "commercial-campaign-01",
@@ -176,6 +176,7 @@
   "type": "photography",
   "description": "A twelve-frame photography project - on-location portraits and scenes shot with a Fujifilm XT5.",
   "cover": "taos-project-01",
+  "page": "/projects/taos-project",
   "photos": [
    {
     "slug": "taos-project-01",
@@ -306,22 +307,23 @@
   "type": "research",
   "description": "Coursework on employment relationships - essays and analyses covering workplace fairness, employer-employee relations and contemporary HRM debates.",
   "cover": "",
+  "page": "/projects/employment-relations",
   "photos": [],
   "documents": [
    {
-    "name": "BUSM4769 ASM1.docx",
+    "name": "AI Recruitment and Ethics at AIA Vietnam",
     "file": "busm4769-asm1.docx",
     "ext": "docx",
     "size": 2591049
    },
    {
-    "name": "ASM 2 ER.docx",
+    "name": "Enterprise Agreement for Telstra",
     "file": "asm-2-er.docx",
     "ext": "docx",
     "size": 2592339
    },
    {
-    "name": "ASM 3 ER.docx",
+    "name": "Employment Relations at Commonwealth Bank of Australia",
     "file": "asm-3-er.docx",
     "ext": "docx",
     "size": 2593516
@@ -334,22 +336,23 @@
   "type": "research",
   "description": "Data-driven people decisions - team analytics reports and assessments that use workforce metrics to answer real HR questions.",
   "cover": "",
+  "page": "/projects/people-analytics",
   "photos": [],
   "documents": [
    {
-    "name": "AS3_SGS_TUT01_Team 4-1.docx",
+    "name": "Assessment 3 Qualitative HR analytics project",
     "file": "as3-sgs-tut01-team-4-1.docx",
     "ext": "docx",
     "size": 11443654
    },
    {
-    "name": "ASM 1.docx",
+    "name": "Effects of Technology Applications on Vietnam's Workplace",
     "file": "asm-1.docx",
     "ext": "docx",
     "size": 28038
    },
    {
-    "name": "People Analytics ASM 2 (1).docx",
+    "name": "Corporate Governance and Ethics Case Study",
     "file": "people-analytics-asm-2-1.docx",
     "ext": "docx",
     "size": 375030
@@ -362,28 +365,29 @@
   "type": "research",
   "description": "Case study analyses of how economic, political and social forces shape the decisions businesses make.",
   "cover": "",
+  "page": "/projects/understanding-the-business-environment",
   "photos": [],
   "documents": [
    {
-    "name": "BUSM2565-Assessment-Report.docx",
+    "name": "Group Contribution",
     "file": "busm2565-assessment-report.docx",
     "ext": "docx",
     "size": 12976
    },
    {
-    "name": "BUSM2565_SG_G10_Team 02_ Business Environment Report.pdf",
+    "name": "Business Environment Report - Gucci",
     "file": "busm2565-sg-g10-team-02-business-environment-report.pdf",
     "ext": "pdf",
     "size": 16739136
    },
    {
-    "name": "Case Study Analysis UBE ASM 3.docx",
+    "name": "Strategic Management Analysis - Vinamilk",
     "file": "case-study-analysis-ube-asm-3.docx",
     "ext": "docx",
     "size": 29348
    },
    {
-    "name": "Self Reflection.docx",
+    "name": "Self Reflection",
     "file": "self-reflection.docx",
     "ext": "docx",
     "size": 14973
@@ -396,22 +400,23 @@
   "type": "research",
   "description": "Reflections on working in a globalised world - CV valuation, recruitment processes and a narrative ePortfolio.",
   "cover": "",
+  "page": "/projects/work-in-global-society",
   "photos": [],
   "documents": [
    {
-    "name": "Assessment 2_ Narrative of ePortfolio, CV Valuation, and Recruitment Process.pdf",
+    "name": "Logistics and Supply Chain Optimization Analysis",
     "file": "assessment-2-narrative-of-eportfolio-cv-valuation-and-recruitment-process.pdf",
     "ext": "pdf",
     "size": 320958
    },
    {
-    "name": "BUSM4561 ASM1.docx",
+    "name": "Changing Nature of Work",
     "file": "busm4561-asm1.docx",
     "ext": "docx",
     "size": 6387938
    },
    {
-    "name": "BUSM4561_SGSG03_Team06_Asm2-1.docx",
+    "name": "Digital Marketing Strategy & Consumer Behavior Report",
     "file": "busm4561-sgsg03-team06-asm2-1.docx",
     "ext": "docx",
     "size": 48311

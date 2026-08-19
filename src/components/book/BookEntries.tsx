@@ -10,6 +10,7 @@ import {
   type CampaignImg,
 } from "@/lib/campaign";
 import { useI18n } from "@/lib/i18n";
+import { nextProjectSlug, PROJECTS } from "@/lib/projectPages";
 import { Reveal, Rich } from "@/lib/reveal";
 
 function Fig({
@@ -416,15 +417,27 @@ function BtsSection() {
 function BookEnd() {
   const { lang } = useI18n();
   const c = CAMPAIGN[lang];
+  const nextSlug = nextProjectSlug("commercial-campaign");
   return (
     <section className="bk-end section">
-      <div className="wrap">
+      <div className="wrap pr-end__in">
         <Reveal>
           <Link className="bk-end__link" href="/">
             <span className="bk-end__arw">←</span>
             <span>{c.back}</span>
           </Link>
         </Reveal>
+        {nextSlug ? (
+          <Reveal delay={0.08}>
+            <Link className="pr-end__next" href={`/projects/${nextSlug}`}>
+              <span className="pr-end__nextk">{c.next}</span>
+              <span className="pr-end__nextv">
+                {PROJECTS.find((p) => p.slug === nextSlug)?.name}
+                <span className="pr-end__nexta">→</span>
+              </span>
+            </Link>
+          </Reveal>
+        ) : null}
       </div>
     </section>
   );
