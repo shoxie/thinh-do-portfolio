@@ -78,6 +78,7 @@ const en: Dict = {
   "craft.h2": "What I actually do",
   "craft.tag1": "the craft",
   "craft.card1": "Photography",
+  "craft.focus": "Focus",
   "craft.note1":
     "Every shoot is a hunt for light — the same patience, the same timing, the same one frame where everything lines up.",
   "craft.tag2": "the portfolio",
@@ -187,6 +188,7 @@ const vi: Dict = {
   "craft.h2": "Tôi thực sự làm gì",
   "craft.tag1": "nghề chính",
   "craft.card1": "Nhiếp ảnh",
+  "craft.focus": "Tiêu điểm",
   "craft.note1":
     "Mỗi buổi chụp là một cuộc săn ánh sáng — cùng sự kiên nhẫn ấy, cùng thời khắc ấy, cùng một khung hình nơi mọi thứ khớp vào nhau.",
   "craft.tag2": "danh mục",

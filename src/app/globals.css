@@ -982,61 +982,111 @@ button {
   border-top: 1px solid var(--line);
 }
 
-/* terminal */
-.term {
+/* camera display */
+.cam {
   border: 1px solid var(--line);
   border-radius: 5px;
   overflow: hidden;
   background: #0a0a0c;
 }
-.term__bar {
+.cam__bar {
   display: flex;
   align-items: center;
-  gap: 6px;
-  padding: 9px 12px;
+  gap: 10px;
+  padding: 11px 14px;
   border-bottom: 1px solid var(--line);
   background: rgba(255, 255, 255, 0.025);
 }
-.term__bar i {
-  width: 9px;
-  height: 9px;
+.cam__rec {
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.14);
+  background: var(--accent);
+  flex: none;
+  box-shadow: 0 0 8px rgba(224, 162, 68, 0.7);
+  animation: blink 2s steps(1) infinite;
 }
-.term__bar i:first-child {
-  background: #ff5f57;
-}
-.term__bar i:nth-child(2) {
-  background: #febc2e;
-}
-.term__bar i:nth-child(3) {
-  background: #28c840;
-}
-.term__bar span {
+.cam__model {
   font-family: var(--ff-mono);
   font-size: 10px;
-  color: var(--muted);
-  margin-left: 8px;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.18em;
+  color: var(--ink-2);
+  flex: 1;
 }
-.term__body {
-  margin: 0;
-  padding: 18px 16px;
-  overflow-x: auto;
+.cam__mode {
   font-family: var(--ff-mono);
-  font-size: 12.5px;
-  line-height: 1.85;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  border: 1px solid rgba(224, 162, 68, 0.35);
+  border-radius: 3px;
+  padding: 2px 8px;
+}
+.cam__readout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--line);
+  font-family: var(--ff-mono);
+  font-size: 12px;
+  color: var(--ink);
+}
+.cam__readout span {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 7px;
+}
+.cam__readout i {
+  font-style: normal;
+  font-size: 9px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.cam__body {
+  position: relative;
+  padding: 20px 18px 18px;
+}
+.cam__body::before {
+  content: "";
+  position: absolute;
+  inset: 7px;
+  border: 1px solid rgba(224, 162, 68, 0.22);
+  border-radius: 2px;
+  pointer-events: none;
+}
+.cam__focus {
+  font-family: var(--ff-mono);
+  font-size: 9px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 12px;
+}
+.cam__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 9px;
+}
+.cam__list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13.5px;
+  line-height: 1.5;
   color: var(--ink-2);
 }
-.term__body .c {
-  color: var(--accent);
-}
-.term__body .g {
-  color: var(--term);
-}
-.term__body .dim {
-  animation: blink 1.1s steps(1) infinite;
-  color: var(--term);
+.cam__list li::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex: none;
+  box-shadow: 0 0 8px rgba(224, 162, 68, 0.5);
 }
 
 .lines {

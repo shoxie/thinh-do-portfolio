@@ -17,30 +17,41 @@ export function Craft() {
         </Reveal>
 
         <div className="craft__grid">
-          <Reveal className="card card--term" whileHover={{ y: -3 }}>
+          <Reveal className="card" whileHover={{ y: -3 }}>
             <div className="card__head">
               <span className="card__tag">{t("craft.tag1")}</span>
               <h3>{t("craft.card1")}</h3>
             </div>
-            <div className="term">
-              <div className="term__bar">
-                <i />
-                <i />
-                <i />
-                <span>Do Duy Thinh — zsh</span>
+            <div className="cam">
+              <div className="cam__bar">
+                <span className="cam__rec" aria-hidden="true" />
+                <span className="cam__model">FUJIFILM XT5</span>
+                <span className="cam__mode">M</span>
               </div>
-              <pre className="term__body">
-                <code>
-                  <span className="c">$</span> whoami{"\n"}
-                  Do Duy Thinh{"\n\n"}
-                  <span className="c">$</span> cat ~/.focus{"\n"}
-                  <span className="g">▸</span> portrait &amp; editorial work{"\n"}
-                  <span className="g">▸</span> fashion &amp; studio shoots{"\n"}
-                  <span className="g">▸</span> food &amp; product photography{"\n"}
-                  <span className="g">▸</span> cinematic framing{"\n\n"}
-                  <span className="c">$</span> <span className="dim">_</span>
-                </code>
-              </pre>
+              <div className="cam__readout" aria-hidden="true">
+                <span>
+                  <i>ISO</i> 100
+                </span>
+                <span>
+                  <i>SS</i> 1/2000
+                </span>
+                <span>
+                  <i>ƒ</i> 1.2
+                </span>
+                <span>
+                  <i>WB</i> 5200K
+                </span>
+              </div>
+              <div className="cam__body">
+                <p className="cam__focus">{t("craft.focus")}</p>
+                <ul className="cam__list">
+                  {[1, 2, 3, 5].map((n) => (
+                    <li key={n}>
+                      <span>{t(`craft.l${n}`)}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
             <p className="card__note">
               <span>{t("craft.note1")}</span>
