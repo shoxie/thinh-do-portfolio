@@ -1367,7 +1367,7 @@ button {
   }
 }
 
-/* ═══════════ NARRATIVE (CONTENTS.md) ═══════════ */
+/* ═══════════ NARRATIVE ═══════════ */
 .narrative {
   background: var(--bg-2);
   border-block: 1px solid var(--line);

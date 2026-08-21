@@ -58,7 +58,7 @@ const en: Dict = {
   "narrative.num": "01 — Narrative",
   "narrative.h2": "The curiosity<br><em>that keeps me making</em>",
   "narrative.lede":
-    "In my own words — the story from <em>CONTENTS.md</em>, fitted in without losing the design. Each paragraph below is my original reflection; the analytical framing around it lives in Capabilities and Journey.",
+    "My story — in my own words. How a quiet curiosity turned into photography, what RMIT taught me through making, and why I am becoming an Art Director.",
   "narrative.mylife.k": "My life",
   "narrative.mylife.p1":
     "I have always been someone who enjoys creating things and finding different ways to express myself. Growing up, I had a stable life, but I was always curious about what else was out there. I wanted to experience more, meet new people, and learn things that were outside of what I already knew. I think that curiosity has always been an important part of who I am.",
@@ -80,7 +80,7 @@ const en: Dict = {
     "I want to work on projects where I can develop the overall visual direction, from the first idea to the final image. I am interested in working with photographers, stylists, designers, models, and other creatives, and bringing different ideas together to create something that feels consistent and meaningful. My experience with photography gives me a starting point because I understand how an image is made, but I want to continue learning about the other parts of the creative process as well.",
   "narrative.future.p3":
     "I do not know exactly where this path will take me yet, and I think that is part of what makes it exciting. What I know is that I want to keep creating, keep experimenting, and keep finding new ways to tell stories through visuals. Everything I have experienced so far, from my first curiosity about photography to the projects I have worked on at RMIT, has helped me move closer to understanding the kind of creative I want to become.",
-  "narrative.analytical": "Analytical note — the paragraphs above are my voice. For the assessor: each maps to AD capabilities in the next section (portrait → people direction; fashion → visual system; product → intentional realism + texture/colour control; failure/feedback → iterative method; Art Director ambition → transition from shooter to director). See Journey and Project pages for the <em>So what / Now what</em>.",
+  "narrative.analytical": "Reflecting on this — portrait taught me people direction, fashion taught me how to build a visual system, product taught me intentional realism and control of texture, colour and light, and learning from feedback gave me an iterative method. That progression is why I am moving from photographer toward Art Director.",
 
   "stats.projects": "Projects",
   "stats.photos": "Photographs",
@@ -253,7 +253,7 @@ const vi: Dict = {
   "narrative.num": "01 — Narrative",
   "narrative.h2": "Sự tò mò<br><em>giữ tôi tiếp tục sáng tạo</em>",
   "narrative.lede":
-    "Bằng lời của chính tôi — câu chuyện từ <em>CONTENTS.md</em> được giữ trọn, chỉ đặt vào trong thiết kế hiện có. Mỗi đoạn dưới là phản tư gốc; phần khung phân tích nằm ở Capabilities và Journey.",
+    "Câu chuyện của tôi — bằng lời của chính tôi. Sự tò mò đã đưa tôi đến nhiếp ảnh như thế nào, RMIT đã dạy tôi điều gì qua quá trình làm, và vì sao tôi hướng tới Art Director.",
   "narrative.mylife.k": "My life",
   "narrative.mylife.p1":
     "Tôi luôn là người thích tạo ra thứ gì đó và tìm nhiều cách khác nhau để thể hiện bản thân. Lớn lên trong một cuộc sống ổn định, nhưng tôi luôn tò mò về những điều ngoài kia. Tôi muốn trải nghiệm nhiều hơn, gặp gỡ người mới và học những điều nằm ngoài những gì mình đã biết. Tôi nghĩ sự tò mò ấy luôn là một phần quan trọng của con người tôi.",
@@ -275,7 +275,7 @@ const vi: Dict = {
     "Tôi muốn làm những dự án nơi mình có thể phát triển định hướng thị giác tổng thể, từ ý tưởng đầu tiên đến hình ảnh cuối cùng. Tôi muốn làm việc cùng nhiếp ảnh gia, stylist, designer, người mẫu và những người sáng tạo khác, và gom những ý tưởng khác nhau lại để tạo ra thứ gì đó nhất quán và có ý nghĩa. Kinh nghiệm nhiếp ảnh cho tôi điểm khởi đầu vì tôi hiểu một bức ảnh được tạo ra thế nào, nhưng tôi muốn tiếp tục học về những phần còn lại của quy trình sáng tạo.",
   "narrative.future.p3":
     "Tôi chưa biết chính xác con đường này sẽ đưa mình đi đâu, và tôi nghĩ đó là một phần khiến nó thú vị. Điều tôi biết là tôi muốn tiếp tục sáng tạo, tiếp tục thử nghiệm và tiếp tục tìm những cách mới để kể chuyện bằng hình ảnh. Mọi thứ tôi đã trải qua cho đến nay, từ sự tò mò đầu tiên về nhiếp ảnh đến các dự án tại RMIT, đã giúp tôi tiến gần hơn tới việc hiểu kiểu người sáng tạo mà mình muốn trở thành.",
-  "narrative.analytical": "Ghi chú phân tích — các đoạn trên là giọng của tôi. Với giảng viên: mỗi đoạn ánh xạ tới năng lực AD ở mục sau (chân dung → chỉ đạo con người; thời trang → hệ thống thị giác; sản phẩm → tính chủ ý + kiểm soát texture/màu; thất bại/feedback → phương pháp lặp; khát vọng Art Director → chuyển từ shooter sang director). Xem Journey và trang Projects cho <em>So what / Now what</em>.",
+  "narrative.analytical": "Nhìn lại — chân dung dạy tôi chỉ đạo con người, thời trang dạy tôi xây hệ thống thị giác, sản phẩm dạy tôi sự chủ ý và kiểm soát texture, màu sắc, ánh sáng, và việc học từ feedback cho tôi phương pháp lặp. Chính hành trình đó đưa tôi từ nhiếp ảnh gia sang Art Director.",
 
   "stats.projects": "Dự án",
   "stats.photos": "Ảnh",
