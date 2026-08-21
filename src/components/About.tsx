@@ -92,6 +92,34 @@ export function About() {
             </Reveal>
 
             <Reveal>
+              <div className="about__direction">
+                <div className="about__directionhead">
+                  <span className="about__directionk">
+                    {t("about.direction.k")}
+                  </span>
+                </div>
+                <Rich className="about__directionv" html={t("about.direction.v")} />
+                <div className="about__directionsub">
+                  <span className="about__directionk">
+                    {t("about.direction.why")}
+                  </span>
+                  <span className="about__directionv about__directionv--sm">
+                    {t("about.direction.whyV")}
+                  </span>
+                </div>
+                <div className="about__directionsub">
+                  <span className="about__directionk">
+                    {t("about.analytical.k")}
+                  </span>
+                  <Rich
+                    className="about__directionv about__directionv--sm"
+                    html={t("about.analytical.v")}
+                  />
+                </div>
+              </div>
+            </Reveal>
+
+            <Reveal>
               <ul className="aboutfacts">
                 <li>
                   <span className="aboutfacts__k">

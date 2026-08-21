@@ -1,6 +1,6 @@
 "use client";
 
-import { Reveal } from "@/lib/reveal";
+import { Reveal, Rich } from "@/lib/reveal";
 import { useI18n } from "@/lib/i18n";
 
 export function Craft() {
@@ -13,7 +13,7 @@ export function Craft() {
           <p className="secnum">{t("craft.num")}</p>
         </Reveal>
         <Reveal>
-          <h2 className="h2 craft__h">{t("craft.h2")}</h2>
+          <Rich as="h2" className="h2 craft__h" html={t("craft.h2")} />
         </Reveal>
 
         <div className="craft__grid">
@@ -26,7 +26,7 @@ export function Craft() {
               <div className="cam__bar">
                 <span className="cam__rec" aria-hidden="true" />
                 <span className="cam__model">FUJIFILM XT5</span>
-                <span className="cam__mode">M</span>
+                <span className="cam__mode">M · AD</span>
               </div>
               <div className="cam__readout" aria-hidden="true">
                 <span>
@@ -45,16 +45,24 @@ export function Craft() {
               <div className="cam__body">
                 <p className="cam__focus">{t("craft.focus")}</p>
                 <ul className="cam__list">
-                  {[1, 2, 3, 5].map((n) => (
-                    <li key={n}>
-                      <span>{t(`craft.l${n}`)}</span>
-                    </li>
-                  ))}
+                  <li>
+                    <span>{t("craft.cap1.ev1")}</span>
+                  </li>
+                  <li>
+                    <span>{t("craft.cap1.ev2")}</span>
+                  </li>
+                  <li>
+                    <span>{t("craft.cap1.ev3")}</span>
+                  </li>
                 </ul>
               </div>
             </div>
             <p className="card__note">
               <span>{t("craft.note1")}</span>
+            </p>
+            <p className="craft__evidence">
+              <span className="craft__evidencek">{t("craft.evidence")}</span>
+              <span>{t("craft.cap1.ev1")} · {t("craft.cap1.ev2")}</span>
             </p>
           </Reveal>
 
@@ -70,6 +78,14 @@ export function Craft() {
                 </li>
               ))}
             </ul>
+            <div className="craft__evlist">
+              <span className="craft__evidencek">{t("craft.evidence")}</span>
+              <ul>
+                <li>{t("craft.cap2.ev1")}</li>
+                <li>{t("craft.cap2.ev2")}</li>
+                <li>{t("craft.cap2.ev3")}</li>
+              </ul>
+            </div>
             <p className="card__note">
               <span>{t("craft.note2")}</span>
             </p>
@@ -79,6 +95,20 @@ export function Craft() {
             <div className="card__head">
               <span className="card__tag">{t("craft.tag3")}</span>
               <h3>{t("craft.card3")}</h3>
+            </div>
+            <div className="craft__evidencegrid">
+              <div>
+                <span className="craft__evidencek">{t("craft.evidence")} — Business literacy</span>
+                <p className="craft__evp">{t("craft.cap3.ev1")}</p>
+              </div>
+              <div>
+                <span className="craft__evidencek">{t("craft.evidence")} — Team listening</span>
+                <p className="craft__evp">{t("craft.cap3.ev2")}</p>
+              </div>
+              <div>
+                <span className="craft__evidencek">{t("craft.evidence")} — Fair production</span>
+                <p className="craft__evp">{t("craft.cap3.ev3")}</p>
+              </div>
             </div>
             <div className="bts">
               <img
@@ -103,6 +133,10 @@ export function Craft() {
             </p>
           </Reveal>
         </div>
+
+        <Reveal>
+          <p className="craft__analytical">{t("craft.analytical")}</p>
+        </Reveal>
       </div>
     </section>
   );

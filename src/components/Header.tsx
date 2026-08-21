@@ -7,7 +7,9 @@ import { useI18n, type Lang } from "@/lib/i18n";
 
 const NAV = [
   { href: "#about", key: "nav.about" },
+  { href: "#narrative", key: "nav.narrative" },
   { href: "#craft", key: "nav.craft" },
+  { href: "#timeline", key: "nav.timeline" },
   { href: "#projects", key: "nav.projects" },
   { href: "#contact", key: "nav.contact" },
 ] as const;

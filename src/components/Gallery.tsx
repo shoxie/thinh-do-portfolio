@@ -10,7 +10,7 @@ import {
   useState,
 } from "react";
 import { useI18n } from "@/lib/i18n";
-import { Reveal } from "@/lib/reveal";
+import { Reveal, Rich } from "@/lib/reveal";
 import projectsRaw from "@/lib/projects.json";
 
 type ProjectPhoto = {
@@ -257,10 +257,13 @@ export function Gallery() {
         <div className="gallery__head">
           <Reveal>
             <p className="secnum">{t("gal.num")}</p>
-            <h2 className="h2">{t("gal.h2")}</h2>
+            <Rich as="h2" className="h2" html={t("gal.h2")} />
           </Reveal>
           <Reveal>
-            <p className="gallery__intro">{t("gal.intro")}</p>
+            <div className="gallery__introbox">
+              <p className="gallery__intro">{t("gal.intro")}</p>
+              <p className="gallery__hint">{t("projects.hint")}</p>
+            </div>
           </Reveal>
         </div>
 

@@ -7,131 +7,141 @@ export type PaperNote = {
 };
 
 export const PAPER_LABELS = {
-  learned: "What I learned",
-  applied: "Practical application in the assignment",
-  future: "Future application",
+  learned: "What I learned (What)",
+  applied: "So what — analysis for Art Direction",
+  future: "Now what — how I apply it as AD",
 } as const;
 
 /* keyed by the `file` value in projects.json */
 export const PAPER_NOTES: Record<string, PaperNote> = {
   "busm4769-asm1.docx": {
     file: "busm4769-asm1.docx",
-    desc: "This study evaluates the implementation of AI-driven recruitment technology (specifically Interviewer.AI) at AIA Vietnam. It balances the clear operational advantages—such as time and cost optimization—against significant ethical risks, including algorithmic bias and a lack of process transparency. To mitigate these issues, the paper outlines a robust governance framework centered on a human-in-the-loop oversight mechanism.",
+    desc: "Evaluates Interviewer.AI at AIA Vietnam — efficiency (time/cost) vs. bias and opacity — and proposes a human-in-the-loop governance model. For an Art Director this is the same tension as AI culling/retouch and generative mood boards: powerful, but unsayable without oversight.",
     learned:
-      "The dual nature of recruitment AI—while it drives efficiency, it carries inherent risks regarding algorithmic bias and systemic opacity.",
+      "AI magnifies both efficiency and bias. My contribution was to audit outputs against ethical risk, not just speed — tracing where training data or opaque scoring could silently exclude talent.",
     applied:
-      "Exercising critical thinking allowed for a thorough audit of AI outputs, an analysis of ethical implications, and the design of a human-supervised control framework.",
+      "Applied critical review to map Interviewer.AI failure modes and design a control layer: transparent criteria, audit logs and a required human review checkpoint before any candidate rejection. The logic mirrors how I now gate AI-assisted selects and retouch — tool proposes, human decides.",
     future:
-      "When implementing HR technologies down the line, establishing transparent governance protocols and conducting regular data audits will be essential to ensure complete fairness.",
+      "As AD I will keep AI as pre-select, never decision-maker: publish the criteria I use for casting and shortlisting, keep human sign-off, and schedule bias checks after each campaign — so visual decisions stay defensible to client and talent.",
   },
   "asm-2-er.docx": {
     file: "asm-2-er.docx",
-    desc: "This paper explores the collective enterprise bargaining process at Telstra within the framework of the Australian industrial relations system. It addresses the delicate balance between corporate demands for cost efficiency and the union's (CWU) mission to protect worker rights and working conditions. Ultimately, the study highlights the value of integrative bargaining strategies in reaching mutually beneficial outcomes.",
+    desc: "Collective enterprise bargaining at Telstra (Australia) — CWU union vs. management cost pressure — analysed through integrative (win-win) bargaining within the Fair Work system.",
     learned:
-      "The core mechanics of collective bargaining under Australian labor law and the critical role unions play in advocating for workers.",
+      "How Australian collective bargaining actually works: protected action, good-faith requirements and the difference between distributive and integrative moves. My role was to translate legal structure into negotiable interests rather than positions.",
     applied:
-      "Utilizing integrative bargaining principles helped formulate win-win solutions that align the strategic interests of Telstra management with the CWU union.",
+      "Mapped each party’s underlying interests and built a package trade (wage guardrails + productivity gains + rostering flexibility) instead of single-issue haggling — the same packaging I now use to align usage rights, shoot days and revisions with a client budget.",
     future:
-      "Drawing on collaborative negotiation techniques and open communication will serve as a strong foundation for resolving labor disputes and fostering a positive workplace culture.",
+      "On productions I will frame negotiations around interests not demands: one-page term sheets, explicit scope vs. fee tables, and documented approvals. The ER lens keeps freelance sets professional — clear, fair, and enforceable.",
   },
   "asm-3-er.docx": {
     file: "asm-3-er.docx",
-    desc: "This research examines employment relations at Commonwealth Bank of Australia (CBA) within its heavily regulated financial sector environment. The analysis covers key areas such as compensation structures, Diversity, Equity, and Inclusion (DEI) initiatives, and workplace friction stemming from remote-work policies. It provides conflict management strategies designed to maintain legal compliance while boosting employee engagement.",
+    desc: "CBA employment relations under heavy regulation — pay structures, DEI, and remote-work friction — with compliance-led conflict strategies. Directly relevant to running a diverse, partly-remote creative crew.",
     learned:
-      "The critical importance of labor law compliance, statutory minimum standards, and robust DEI frameworks in the banking sector.",
+      "That compliance is not admin overhead but trust infrastructure: minimum standards, DEI and remote-work policy shape whether people can do their best work. I learned to read a workplace through those structures, not just culture statements.",
     applied:
-      "Analyzing CBA's employment landscape enabled the development of targeted dispute-resolution strategies around remote work to ensure full legal compliance.",
+      "Diagnosed CBA’s friction points (pay equity gaps, remote fatigue, inclusion) and built resolution pathways that kept both compliance and engagement in scope — a discipline I now apply to call sheets, credit, consent and post-production handoffs.",
     future:
-      "The intention is to stay current with evolving employment legislation and establish rigorous internal audit processes to minimize legal risks for organizations.",
+      "As AD I will run sets with a written standards checklist: inclusive casting briefs, consent and credit before release, and remote-retouch workflows with boundaries on hours — so craft quality does not depend on informal goodwill.",
   },
   "asm-1.docx": {
     file: "asm-1.docx",
-    desc: "This qualitative study investigates how digital tools impact day-to-day operations across Vietnamese workplaces. Based on in-depth interviews with employees at major companies (including Vinamilk, VUS, VEAM, Uniqlo, and SunHouse), the report details how technology drives productivity while introducing adaptation stress. The findings present a nuanced look at digital transformation on an individual level.",
+    desc: "In-depth interviews at five Vietnamese firms (Vinamilk, VUS, VEAM, Uniqlo, SunHouse) on how digital tools lift productivity yet create adaptation stress — a precise analogue for a studio adopting AI culling, tethered workflow and cloud delivery.",
     learned:
-      "Qualitative research methodology using in-depth interviews to measure technology's impact on employee productivity and workplace engagement.",
+      "How to run semi-structured interviews, code themes and separate real productivity gain from novelty. My contribution was synthesis: five noisy workplaces distilled into a pattern — tool helps most where the human workflow was re-designed, not where it was simply overlaid.",
     applied:
-      "Synthesizing field data from workers across five major enterprises allowed for clear mapping of both the benefits and friction points of workplace digital transformation.",
+      "Mapped benefits (fewer manual repeats) vs. frictions (skill anxiety, blurred hours) and linked each to a workflow redesign opportunity. That same diagnosis now guides my studio pipeline — automate selects/exports, but keep creative decisions human-paced and documented.",
     future:
-      "Championing the integration of automation tools in daily operations will help streamline processes, cut redundant manual tasks, and optimize workflow efficiency.",
+      "As AD I will introduce new tools with a micro-change plan: pilot, measure, train, retro. The paper taught me that adoption failure is rarely about the tool — it is about skipping the human transition.",
   },
   "people-analytics-asm-2-1.docx": {
     file: "people-analytics-asm-2-1.docx",
-    desc: "This case study explores corporate governance frameworks and ethical decision-making when navigating conflicts of interest. It emphasizes the importance of transparency, accountability, and Corporate Social Responsibility (CSR) in protecting long-term enterprise value. The paper outlines recommendations for establishing robust ethical codes and internal controls.",
+    desc: "Conflict-of-interest and governance case — transparency, CSR and internal controls. For a studio, this is how you keep decision-making clean when client, talent and personal brand interests collide.",
     learned:
-      "The foundational role that strong governance, transparency, and Corporate Social Responsibility (CSR) play in sustainable business growth.",
+      "That governance is not bureaucracy but a creative enabler: clear codes keep a small team fast because choices are pre-legitimized. I learned to write recommendations as controls — who decides, on what evidence, logged where.",
     applied:
-      "Analyzing real-world conflict-of-interest scenarios provided the necessary context to design ethical guidelines aimed at safeguarding multi-stakeholder interests.",
+      "Built ethical guardrails from real conflict scenarios (recusal rules, dual-approval for sensitive usage). I now frame set governance the same way: consent logs, usage caps and a paper trail for contentious selects — so disputes never become personal.",
     future:
-      "Embedding ethical standards and operational transparency will stand at the core of all future management decisions and business leadership practices.",
+      "Every Art Direction engagement will start with a one-page governance note: decision rights, conflict routes and post-mortem rules. Trust scales with that clarity, not with charisma.",
   },
   "as3-sgs-tut01-team-4-1.docx": {
     file: "as3-sgs-tut01-team-4-1.docx",
-    desc: "This project focuses on leveraging qualitative HR analytics to examine 27 real Glassdoor reviews from L'Oréal Vietnam. By combining the IMPACT framework with Val Generative AI, the study measures employee sentiment and pinpoints operational bottlenecks, particularly around career advancement barriers and leadership dynamics. Building on these findings, it proposes a targeted Qualtrics survey to gather deeper, actionable workplace insights.",
+    desc: "Qualitative People Analytics on 27 L'Oréal Vietnam Glassdoor reviews — IMPACT + Val AI for thematic/sentiment mapping (career block, leadership) → Qualtrics follow-up design. Direct method for listening to a creative crew without formal HR.",
     learned:
-      "How to apply the IMPACT framework alongside Val Generative AI to effectively process qualitative data and analyze employee sentiment from real-world feedback.",
+      "To treat text as data: IMPACT framing, inductive coding with Val AI, then human validation to avoid hallucinating themes. My contribution was the judgment layer — separating signal (repeated career-ceiling mentions) from noise (one-off rants).",
     applied:
-      "Applying thematic and sentiment analysis to the Glassdoor reviews made it possible to identify key organizational challenges and design a follow-up survey strategy.",
+      "Surfaced that advancement opacity, not workload, drove attrition sentiment and designed a Qualtrics instrument to test it. That listening sequence is now my set retro: anonymous pulse checks, thematic read, then a concrete fix before next shoot.",
     future:
-      "Moving forward, my goal is to leverage data-driven People Analytics and employee listening tools to proactively surface management issues and enhance the overall employee experience.",
+      "As AD I will run a lightweight people-analytics loop on every team: pre-shoot expectations check, post-shoot 5-question pulse, quarterly theme review. The camera directional skill matters less if the team’s signal is ignored.",
   },
   "busm2565-assessment-report.docx": {
     file: "busm2565-assessment-report.docx",
-    desc: "This document logs and evaluates individual contributions for the BUSM2565 group project. It outlines task delegation, milestone tracking, and peer evaluations based on pre-agreed performance criteria. The report reflects a commitment to fairness, open communication, and individual accountability in a collaborative team environment.",
+    desc: "Peer contribution audit for BUSM2565 — task split, milestone tracking and calibrated peer matrix. The Artefact art directors need most: how to keep credit fair when ideas are shared.",
     learned:
-      "The value of transparency, equity, and personal accountability when evaluating peer performance in group dynamics.",
+      "That fairness is designed, not declared. I learned to set observable criteria before work starts and evidence contributions in a shared doc — so evaluation never relies on memory or loudest voice.",
     applied:
-      "Facilitating open, objective discussions across the team made it possible to review each member's deliverables before finalizing a fair peer-assessment matrix.",
+      "Facilitated criteria alignment, then reviewed deliverables evidence-first before scoring. That structure prevented last-minute inflation and is now my model for crew credit and revisions accounting on set.",
     future:
-      "Maintaining clear performance metrics and transparent evaluation processes will remain a priority in future team management roles to drive accountability and collaboration.",
+      "Future teams will get a one-page contribution charter on day one: who owns what, how review works, how disputes escalate. Transparency early is kinder than arbitration late.",
   },
   "busm2565-sg-g10-team-02-business-environment-report.pdf": {
     file: "busm2565-sg-g10-team-02-business-environment-report.pdf",
-    desc: "This report delivers a comprehensive business environment assessment for the luxury fashion house Gucci. Utilizing strategic frameworks such as PESTLE, SWOT, and supply-and-demand analysis, the paper evaluates how macro-level shifts—such as changing Millennial consumer behavior, counterfeit markets, and PR crises—impact top-line revenue. Strategic recommendations are then offered to protect brand equity.",
+    desc: "Full PESTLE/SWOT + supply-and-demand assessment of Gucci — counterfeits, Millennial demand and PR shocks linked to revenue via brand-equity analysis. Core commercial literacy for an Art Director who must protect a client’s brand while pushing a visual idea.",
     learned:
-      "How to evaluate a global luxury brand's operating environment using PESTLE, SWOT, and foundational supply-and-demand dynamics.",
+      "To link outside-in analysis to an inside decision. My contribution was translating macro shifts (counterfeit supply, demand rotation) into a choice: where Gucci should not commercialize despite short-term revenue.",
     applied:
-      "Deploying economic models served to quantify the commercial impact of counterfeit goods, media crises, and evolving youth consumer preferences on Gucci's bottom line.",
+      "Quantified how counterfeit pressure and crisis coverage eroded perceived scarcity and built recommendations around scarcity protection, not discounting. That same outside-in check now frames my shoot briefs: what market tension is this image paid to resolve?",
     future:
-      "Employing comprehensive analytical frameworks will be key to evaluating both micro and macro factors prior to making strategic business or marketing decisions.",
+      "Before any campaign I will require a 120-word brand-pressure note (PESTLE + demand) so visual risk is tied to business risk — AD judgment framed in the client’s P&L language, not just aesthetics.",
   },
   "case-study-analysis-ube-asm-3.docx": {
     file: "case-study-analysis-ube-asm-3.docx",
-    desc: "This strategic analysis examines the competitive positioning and market leadership of Vinamilk, Vietnam's premier dairy producer. Using value chain analysis, financial matrix evaluations, and industry structure models, the paper highlights the company's core capabilities. It concludes with actionable growth strategies for international expansion and sustained market dominance.",
+    desc: "Vinamilk competitive positioning — value chain, financial matrix and industry structure → growth plays for international expansion. How an AD reads a Vietnamese client’s operable advantage, not just its product shots.",
     learned:
-      "How to analyze competitive positioning, value chains, and sustainable market leadership strategies within the FMCG sector.",
+      "To map a value chain to where the brand can actually defend margin. I learned to find the kink — the one capability (cold chain, sourcing, distribution) that makes a premium image believable.",
     applied:
-      "Merging financial matrix evaluations, industry analysis, and core competency mapping resulted in concrete market expansion strategies for Vinamilk.",
+      "Fused financial ratios with chain analysis to isolate Vinamilk’s durable edge and built expansion options that reinforce it, rather than chase volume. That discipline keeps my food/product art direction honest — styling never promises what the chain cannot deliver.",
     future:
-      "Applying strategic management thinking will help sharpen future approaches to resource allocation, budgeting, and long-term business planning.",
+      "As AD for FMCG/hospitality I will start with ops reality: sample the chain, shoot what it reliably does best, and grade the story to that truth. Visual credibility outlasts visual novelty.",
   },
   "busm4561-asm1.docx": {
     file: "busm4561-asm1.docx",
-    desc: "This paper explores the changing global labor landscape driven by automation, post-pandemic realities, and economic shifts. Drawing on data from the ILO and OECD, it highlights the growing challenges facing young workers, particularly youth unemployment and skill gaps. The study stresses the urgent need for continuous upskilling and re-skilling programs.",
+    desc: "ILO/OECD-backed analysis of how automation, pandemic and economic volatility re-shape youth labour — with a Vietnam lens from personal jewelry-industry context. Why an AD must design for continuous upskilling, not static craft.",
     learned:
-      "A broad perspective on how technology, pandemic disruptions, and economic volatility are reshaping global labor markets and youth employment.",
+      "That skill half-life is short. My contribution was bridging global ILO/OECD data to a Vietnamese entry-level reality — showing why generic ‘learn to code’ advice fails without situated pathways.",
     applied:
-      "Connecting global ILO and OECD data to Vietnam's local context and personal experience in the jewelry industry underscored the critical need for continuous skill development.",
+      "Linked macro youth-unemployment data to specific reskilling levers relevant locally (modular credentialing, on-the-job tool apprenticeship). That framing now shapes my own upskilling plan — quarterly, small, and tied to a deliverable (see Timeline → Next 12 months).",
     future:
-      "Cultivating a lifelong learning mindset and proactively acquiring emerging technological skills will ensure adaptability amidst changing industry demands.",
+      "I will budget 10% of every project for learning — one new controlled Lighting/colour-management competency per quarter — so the portfolio compounds rather than repeats.",
   },
   "busm4561-sgsg03-team06-asm2-1.docx": {
     file: "busm4561-sgsg03-team06-asm2-1.docx",
-    desc: "This report investigates evolving consumer behavior across digital touchpoints and details how brands can adapt effectively. It maps out target buyer personas, designs customer journey flows, and outlines an integrated omnichannel marketing strategy. The research emphasizes data-driven decision-making to deliver personalized messaging and maximize conversion rates.",
+    desc: "Digital consumer behaviour → personas, journey mapping and omnichannel strategy for personalization and conversion. How an AD keeps a campaign coherent across touchpoints instead of producing one hero image that dies on feed crop.",
     learned:
-      "How digital consumer behaviors shift and how to build data-informed, omnichannel marketing strategies.",
+      "To design from journey evidence, not demographics alone. I learned to build personas around jobs-to-be-done and map where visual consistency earns trust — and where platform-specific variation is required.",
     applied:
-      "Developing detailed target buyer profiles made it possible to map user journeys tailored specifically for digital marketing channels and conversion funnel optimization.",
+      "Built journey-aware formats (hero + feed crop + detail texture) from persona data rather than generic best practice. That is how I now art-direct deliverable packs: one system, natively cropped, with hierarchy preserved.",
     future:
-      "Adopting data-driven marketing techniques will be crucial for refining campaign targeting, improving user engagement, and driving higher overall conversions.",
+      "Every AD pack will ship with a touchpoint matrix: format, safe area, hierarchy and copy relationship — so the image system survives real placement, not just portfolio artboard.",
   },
   "assessment-2-narrative-of-eportfolio-cv-valuation-and-recruitment-process.pdf": {
     file: "assessment-2-narrative-of-eportfolio-cv-valuation-and-recruitment-process.pdf",
-    desc: "This paper addresses logistics optimization and supply chain management efficiency for modern enterprises. It analyzes operational bottlenecks in transportation and warehousing, advocating for integrated IT solutions to improve real-time tracking. The primary objective is to streamline resource usage, lower operational overhead, and reduce delivery lead times.",
+    desc: "Narrative CV valuation and recruitment process — plus logistics/supply-chain optimization thinking — applied to how a portfolio and its delivery chain create value.",
     learned:
-      "The strategic value of supply chain optimization, smart inventory management, and logistics technology in driving cost savings.",
+      "That a CV and its delivery are a supply chain: sourcing (evidence), warehousing (portfolio IA), transport (file naming, delivery, versioning) and tracking (feedback loops). Value leaks at every handoff if not designed.",
     applied:
-      "Evaluating operational risks alongside quantitative modeling enabled the formulation of concrete solutions for warehouse management and faster delivery cycles.",
+      "Applied process-optimization to my own portfolio logistics: consistent file naming, deliverable checklist, and a tracked feedback loop with reviewers — reducing rework and missed attachments before assessment.",
     future:
-      "Bringing process-optimization thinking into daily resource and operations management will maximize cost efficiency across future projects.",
+      "Studio operations will run on that same optimization mindset: standardized ingest → select → grade → export → deliver pipeline with named owners and time boxes, so creative energy is reserved for direction, not file hunting.",
+  },
+  "self-reflection.docx": {
+    file: "self-reflection.docx",
+    desc: "Structured self-reflection using What → So what → Now what on the BUSM2565 business environment project — what I contributed, where my analysis was strong or thin, and how peer feedback redirected the work. Model for the AD retro.",
+    learned:
+      "To separate self-judgment from evidence. My contribution was strongest in linking outside-in frameworks to a visual argument (Gucci scarcity), thinnest where recommendations floated without cost or operational ownership.",
+    applied:
+      "Wrote the reflection against the actual peer matrix and marker comments, not memory — naming one decision to keep and one to change. That evidence-first review is now my post-shoot retro template.",
+    future:
+      "Every Art Direction engagement will close with a one-page retro in this form — What happened, So what did the market/audience signal mean, Now what will I adjust in the system — published as part of the case study.",
   },
 };

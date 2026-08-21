@@ -9,6 +9,8 @@ import { Gallery } from "@/components/Gallery";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Marquee } from "@/components/Marquee";
+import { Narrative } from "@/components/Narrative";
+import { Timeline } from "@/components/Timeline";
 import { Grain, Scanline, ScrollProgress } from "@/components/Overlays";
 import { Preloader } from "@/components/Preloader";
 import { I18nProvider } from "@/lib/i18n";
@@ -26,7 +28,9 @@ export default function Home() {
           <Hero />
           <Marquee />
           <About />
+          <Narrative />
           <Craft />
+          <Timeline />
           <Gallery />
           <Contact />
         </main>

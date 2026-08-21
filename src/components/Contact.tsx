@@ -24,6 +24,9 @@ export function Contact() {
         <Reveal>
           <Rich as="h2" className="contact__h" html={t("contact.h2")} />
         </Reveal>
+        <Reveal>
+          <p className="contact__lede">{t("contact.lede")}</p>
+        </Reveal>
 
         <Reveal>
           <div className="social">
