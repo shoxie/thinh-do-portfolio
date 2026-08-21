@@ -44,3 +44,9 @@ next-env.d.ts
 .dev-err.log
 .dev-pid
 
+# agent / private docs - keep locally, never commit
+AGENTS.md
+CLAUDE.md
+AC.md
+CONTENTS.md
+
